@@ -1,0 +1,194 @@
+ID Card O'Neil Node Value Mapping
+---------------------------------
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<memberIdCards> Root
+
+	<healthRulesFileName>idcards_20181221101605237.xml</healthRulesFileName>
+
+	    String idcardsOutputFileName = "idcards_" + filenameTimeStamp + ".xml";
+
+	<fileCreateDateTime>2018-12-21 10:16:237</fileCreateDateTime>
+
+        fileCreateDateTimeNode.setTextContent(new SimpleDateFormat("YYYY-MM-dd HH:mm:SS").format(new Date()));
+
+	<totalCarriers>1</totalCarriers>
+
+        totalCarriersNode.setTextContent("" + oNeilXmlDoc.getElementsByTagName("carrier").getLength());
+
+    <envelope> Parent
+
+        <letterID>9</letterID>
+
+            letterIDNode.setTextContent(getIDCardLetterID(documentType, intialCardRunValue, isAccountCalPERS, props));
+
+        <carrier> Parent
+
+            <mailingAddress> Parent
+
+                <parentOfMessage>To the Parent/Guardian of:<parentOfMessage>
+
+                    "correspondenceItem/recipient/member/birthDate"
+                    calculate age < 18
+
+                <Name>Test Username</Name>
+
+                    "correspondenceItem/recipient/member/firstName"
+                    "correspondenceItem/recipient/member/middleName"
+                    "correspondenceItem/recipient/member/lastName"
+                    "correspondenceItem/recipient/member/nameSuffix"
+                    name = firstName + middleName + " " + lastName + nameSuffix
+
+                <address>12345 Star Lane</address>
+
+                    "correspondenceItem/recipient/member/correspondenceAddress/address"
+                    "correspondenceItem/recipient/member/correspondenceAddress/address2"
+                    "correspondenceItem/recipient/member/correspondenceAddress/address3"address = address1 + address2 + address3
+
+                <city>San Diego</city>
+
+                    "correspondenceItem/recipient/member/correspondenceAddress/city"
+
+                <state>CA</state>
+
+                    "correspondenceItem/recipient/member/correspondenceAddress/stateCode"
+
+                <zipCode>92109</zipCode>
+
+                    "correspondenceItem/recipient/member/correspondenceAddress/zipCode"
+                    "correspondenceItem/recipient/member/correspondenceAddress/zipExtension"
+                    zip = zipCode + zipExtension
+
+            </mailingAddress> END TAG
+
+            <idCard> Parent
+
+                <cardNumber>01</cardNumber>
+
+                    cardNumberNode.setTextContent("0" + (envelopeCount + 1));
+
+                    ///////////// envelopeCount Logic
+                    oNeilRootNode_memberIdCards.appendChild(envelopeNode);
+                    envelopeNode.appendChild(carrierNode);
+                    if (envelopeCount == 0) envelopeNode
+                        .insertBefore(letterIDNode, carrierNode);
+                    envelopeCount++;
+                    if (envelopeCount == 2) {
+                        carrierNode = oNeilXmlDoc.createElement("carrier");
+                        envelopeNode = oNeilXmlDoc.createElement("envelope");
+                        envelopeCount = 0;
+                        String isAccountCalPERS = "No";
+                        if (topAccountName.equals("CalPERS")) isAccountCalPERS = "Yes";
+                        String initialCardRunValue = "";
+                        if (memberExistenceCheckFlag.equalsIgnoreCase("Off")) initialCardRunValue = "Brand New Member"
+                        else if (memberExistenceCheckFlag.equalsIgnoreCase("On"))
+                            if (initialCardRunSet.size() > 1) {
+                                initialCardRunValue = initialCardRunSet.iterator().next();
+                                documentType = definitionSet.iterator().next();
+                            }
+                            else {
+                                for (String anInitialCardRunSet : initialCardRunSet)
+                                    initialCardRunValue = anInitialCardRunSet;
+                            }
+                        // If one envelope contains members that do not have the same letter type then the New Member letter type will be used
+                        if (definitionSet.size() > 1) {
+                            documentType = definitionSet.iterator().next();
+                            if (memberExistenceCheckFlag.equalsIgnoreCase("Off")) initialCardRunValue = "Brand New Member";
+                            else initialCardRunValue = initialCardRunSet.iterator().next();
+                        }
+                    }
+                }
+
+                <cardTemplate>Off-Exchange</cardTemplate>
+
+                    String idCardTemplate = getIDCardTemplate(product, topAccountName, isDentalRiderExist, props);
+                    cardTemplateNode.setTextContent(idCardTemplate);
+
+                <memberFullName>Test Username</memberFullName>
+
+                    "correspondenceItem/recipient/member/firstName"
+                    "correspondenceItem/recipient/member/middleName";
+                    "correspondenceItem/recipient/member/lastName";
+                    "correspondenceItem/recipient/member/nameSuffix";
+
+                    memberFullName = firstName + middleName + " " + lastName + nameSuffix;
+
+                <memberId>900000000-01</memberId>
+
+                    "correspondenceItem/recipient/member/id"
+
+                <DOB>1920-01-01</DOB>
+
+                    "correspondenceItem/recipient/member/birthDate";
+
+                <sex>F</sex>
+
+                    "correspondenceItem/recipient/member/genderCode"
+
+                <effectiveDate>2019-01-01</effectiveDate>
+
+                    effectiveDate = getNodeText("startDate", latestPlanNode);
+                    Node effectiveDateNode = oNeilXmlDoc.createElement("effectiveDate");
+
+                <benefitPlanDesc>Sharp HealthCare HMOL</benefitPlanDesc>
+
+                    benefitPlanDesc = getNodeText("planName", latestPlanNode);
+                    Node benefitPlanDescNode = oNeilXmlDoc.createElement("benefitPlanDesc");
+
+                <pcpPhone>123-123-1234</pcpPhone>
+
+                <pcpFullName>Some Doctor Name</pcpFullName>
+
+                <planMedicalGroup>SCMG Graybill</planMedicalGroup>
+
+                <network>Choice</network>
+
+                <tiers> Parent
+
+                    <tier> Parent
+
+                        <tierNumber>1</tierNumber>
+
+                        <deductible>$0</deductible>
+
+                        <pcpCostShare>$10.00</pcpCostShare>
+
+                        <specialistCostShare>$10.00</specialistCostShare>
+
+                        <hospitalCostShare>$100.00</hospitalCostShare>
+
+                        <urgentCareCostShare>$10.00</urgentCareCostShare>
+
+                        <erCostShare>$50.00</erCostShare>
+
+                    </tier> END TAG
+
+                </tiers> END TAG
+
+                <returnImageFileName/>
+
+                <trackingValues> Parent
+
+                    <documentType>Member ID Card - Benefit Change</documentType>
+
+                    <id>1234567</id>
+
+                    <accountName>Sharp Grossmont</accountName>
+
+                    <accountId>1000000-01</accountId>
+
+                    <visionRider/>
+
+                    <mentalHealthRider>OMHB</mentalHealthRider>
+
+                    <pharmacyRider>RX10_20_40</pharmacyRider>
+
+                    <chiroAcupunctureRider>ACCH10_20</chiroAcupunctureRider>
+
+                </trackingValues> END TAG
+
+            </idCard> END TAG
+
+        </carrier> END TAG
+
+    </envelope> END TAG

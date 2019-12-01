@@ -1,0 +1,34 @@
+// ID Cards Logic
+
+// Requirements:
+file.extension == ".xml"
+rootNode.name == "correspondenceItemList"
+memberId = "correspondenceItem/recipient/member/id"
+docType = "correspondenceItem/documentType"
+correspondenceId = "correspondenceItem/correspondenceId"
+
+// Remove DeDup Documents from List
+if docType in ("Member ID Card - Member Request","Member ID Card - Portal Member Request")
+&& if nonDeDupDocTypesMap.containsKey(memberId + docType)
+then cancelledExtractsMap.put(correspondenceId, id);
+else list.add(memberId + docType, file name)
+
+// Group Files
+groupSubscribersFiles() {
+    map(subcriptionId, map(address, list(file names))
+    subscriptionId = "correspondenceItem/recipient/member/subscriptionId"
+    adddress {
+        "correspondenceItem/recipient/member/correspondenceAddress/address"
+        "correspondenceItem/recipient/member/correspondenceAddress/address2"
+        "correspondenceItem/recipient/member/correspondenceAddress/address3"
+        "correspondenceItem/recipient/member/correspondenceAddress/city"
+        "correspondenceItem/recipient/member/correspondenceAddress/countryCode"
+        "correspondenceItem/recipient/member/correspondenceAddress/countyCode"
+        "correspondenceItem/recipient/member/correspondenceAddress/stateCode"
+        "correspondenceItem/recipient/member/correspondenceAddress/zipCode"
+        "correspondenceItem/recipient/member/correspondenceAddress/zipExtension"
+    }
+    String addressCSV = String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s",
+        address1, address2, address3, city, countryCode, countyCode, stateCode, zipCode, zipExtension);
+}
+

@@ -1,0 +1,103 @@
+Member Kit Node Mapping
+-----------------------
+
+ID Card Template
+	String idCardTemplate = getIDCardTemplate(product, topAccountName, isDentalRiderExist, props);
+	cardTemplateNode.setTextContent(idCardTemplate);
+	delimitedFileDataMap.put("ID Card Template", idCardTemplate);
+
+Product
+    String networkXpath = "benefitNetworkList/benefitNetworkInformation/benefitNetworkName";
+    String network = getNodeText(networkXpath, latestPlanNode);
+    product = getNodeText("product/productName", latestPlanNode);
+    delimitedFileDataMap.put("Product", product);
+
+Employer Group Name
+    "Employer Group Name" = topAccountXpath = "correspondenceItem/recipient/member/hierarchialAccountInformation/topAccountName"
+
+Member ID
+	String memberIdXpath = "correspondenceItem/recipient/member/id";
+    memberId = getNodeText(memberIdXpath, correspondenceItemListNode);
+    Node memberIdNode = oNeilXmlDoc.createElement("memberId");
+    memberIdNode.setTextContent(memberId);
+    delimitedFileDataMap.put("Member ID", memberId);
+
+Member Name
+
+    "correspondenceItem/recipient/member/firstName"
+    "correspondenceItem/recipient/member/middleName" if not ""
+    "correspondenceItem/recipient/member/lastName"
+    "correspondenceItem/recipient/member/nameSuffix" if not ""
+    name = firstName + middleName + " " + lastName + nameSuffix
+
+    delimitedFileDataMap.put("Member Name", memberFullName);
+
+Member Birth Date
+    String birthDateXpath = "correspondenceItem/recipient/member/birthDate";
+    birthDate = getNodeText(birthDateXpath, correspondenceItemListNode);
+    Node DOBNode = oNeilXmlDoc.createElement("DOB");
+    DOBNode.setTextContent(birthDate);
+    delimitedFileDataMap.put("Member Birth Date", birthDate);
+
+Effective Date
+	effectiveDate = getNodeText("startDate", latestPlanNode);
+	delimitedFileDataMap.put("Effective Date", effectiveDate);
+
+Correspondence Address
+    "Correspondence Address" =
+        "correspondenceItem/recipient/member/correspondenceAddress/address"
+        "correspondenceItem/recipient/member/correspondenceAddress/address2"
+        "correspondenceItem/recipient/member/correspondenceAddress/address3"address
+        address = address1 + address2 + address3
+
+Correspondence City
+    "Correspondence City" =
+        "correspondenceItem/recipient/member/correspondenceAddress/city"
+
+Correspondence State
+    "Correspondence State" =
+        "correspondenceItem/recipient/member/correspondenceAddress/stateCode"
+
+Correspondence Zip
+    "Correspondence Zip" =
+        "correspondenceItem/recipient/member/correspondenceAddress/zipCode"
+            "correspondenceItem/recipient/member/correspondenceAddress/zipExtension"
+            Zip = zipCode + "-" + zipExtension
+
+Benefit Plan
+	benefitPlanDesc = getNodeText("planName", latestPlanNode);
+	delimitedFileDataMap.put("Benefit Plan", benefitPlanDesc);
+
+Vision Plan Rider
+    Node visionRiderNode = oNeilXmlDoc.createElement("visionRider");
+    visionRiderNode.setTextContent(visionRider);
+    trackingValuesNode.appendChild(visionRiderNode);
+    delimitedFileDataMap.put("Vision Plan Rider", visionRider);
+
+Mental Health Rider
+    Node mentalHealthRiderNode = oNeilXmlDoc.createElement("mentalHealthRider");
+    mentalHealthRiderNode.setTextContent(mentalHealthRider);
+    trackingValuesNode.appendChild(mentalHealthRiderNode);
+    delimitedFileDataMap.put("Mental Health Rider", mentalHealthRider);
+
+Pharmacy Rider
+    Node pharmacyRiderNode = oNeilXmlDoc.createElement("pharmacyRider");
+    pharmacyRiderNode.setTextContent(pharmacyRider);
+    trackingValuesNode.appendChild(pharmacyRiderNode);
+    delimitedFileDataMap.put("Pharmacy Rider", pharmacyRider);
+
+Chiro/Acupuncture Rider
+    Node chiroAcupunctureRiderNode = oNeilXmlDoc.createElement("chiroAcupunctureRider");
+    chiroAcupunctureRiderNode.setTextContent(chiroAcupunctureRider);
+    trackingValuesNode.appendChild(chiroAcupunctureRiderNode);
+    delimitedFileDataMap.put("Chiro/Acupuncture Rider", chiroAcupunctureRider);
+
+Letter #
+	String idCardLetterID = getIDCardLetterID(documentType, intialCardRunValue, isAccountCalPERS, props);
+	letterIDNode = oNeilXmlDoc.createElement("letterID");
+	letterIDNode.setTextContent(idCardLetterID);
+	delimitedFileDataMap.put("Letter #", idCardLetterID);
+
+Benefit Plan ID
+	benefitPlanId = getNodeText("planId", latestPlanNode);
+	delimitedFileDataMap.put("Benefit Plan ID", benefitPlanId);

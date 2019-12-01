@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<memberIdCards>
+    <healthRulesFileName>idcards_20181221101605237.xml</healthRulesFileName>
+    <fileCreateDateTime>2018-12-21 10:16:237</fileCreateDateTime>
+    <totalCarriers>1</totalCarriers>
+    <envelope>
+        <letterID>9</letterID>
+        <carrier>
+            <mailingAddress>
+                <parentOfMessage/>
+                <Name>Test Username</Name>
+                <address>12345 Star Lane</address>
+                <city>San Diego</city>
+                <state>CA</state>
+                <zipCode>92109</zipCode>
+            </mailingAddress>
+            <idCard>
+                <cardNumber>01</cardNumber>
+                <cardTemplate>Off-Exchange</cardTemplate>
+                <memberFullName>Test Username</memberFullName>
+                <memberId>900000000-01</memberId>
+                <DOB>1920-01-01</DOB>
+                <sex>F</sex>
+                <effectiveDate>2019-01-01</effectiveDate>
+                <benefitPlanDesc>Sharp HealthCare HMOL</benefitPlanDesc>
+                <pcpPhone>123-123-1234</pcpPhone>
+                <pcpFullName>Some Doctor Name</pcpFullName>
+                <planMedicalGroup>SCMG Graybill</planMedicalGroup>
+                <network>Choice</network>
+                <tiers>
+                    <tier>
+                        <tierNumber>1</tierNumber>
+                        <deductible>$0</deductible>
+                        <pcpCostShare>$10.00</pcpCostShare>
+                        <specialistCostShare>$10.00</specialistCostShare>
+                        <hospitalCostShare>$100.00</hospitalCostShare>
+                        <urgentCareCostShare>$10.00</urgentCareCostShare>
+                        <erCostShare>$50.00</erCostShare>
+                    </tier>
+                </tiers>
+                <returnImageFileName/>
+                <trackingValues>
+                    <documentType>Member ID Card - Benefit Change</documentType>
+                    <id>1234567</id>
+                    <accountName>Sharp Grossmont</accountName>
+                    <accountId>1000000-01</accountId>
+                    <visionRider/>
+                    <mentalHealthRider>OMHB</mentalHealthRider>
+                    <pharmacyRider>RX10_20_40</pharmacyRider>
+                    <chiroAcupunctureRider>ACCH10_20</chiroAcupunctureRider>
+                </trackingValues>
+            </idCard>
+            <idCard>
+                <cardNumber>02</cardNumber>
+                <cardTemplate>Off-Exchange</cardTemplate>
+                <memberFullName>Test Ussername Jr</memberFullName>
+                <memberId>900000000-02</memberId>
+                <DOB>2018-01-01</DOB>
+                <sex>M</sex>
+                <effectiveDate>2019-01-01</effectiveDate>
+                <benefitPlanDesc>Sharp HealthCare HMO</benefitPlanDesc>
+                <pcpPhone>123-123-1234</pcpPhone>
+                <pcpFullName>Leo Sanchez</pcpFullName>
+                <planMedicalGroup>Rady Children's Health Network/CPMG</planMedicalGroup>
+                <network>Choice</network>
+                <tiers>
+                    <tier>
+                        <tierNumber>1</tierNumber>
+                        <deductible>$0</deductible>
+                        <pcpCostShare>$10.00</pcpCostShare>
+                        <specialistCostShare>$10.00</specialistCostShare>
+                        <hospitalCostShare>$100.00</hospitalCostShare>
+                        <urgentCareCostShare>$10.00</urgentCareCostShare>
+                        <erCostShare>$50.00</erCostShare>
+                    </tier>
+                </tiers>
+                <returnImageFileName/>
+                <trackingValues>
+                    <documentType>Member ID Card - Benefit Change</documentType>
+                    <id>1234568</id>
+                    <accountName>Sharp Grossmont</accountName>
+                    <accountId>1000000-02</accountId>
+                    <visionRider/>
+                    <mentalHealthRider>OMHB</mentalHealthRider>
+                    <pharmacyRider>RX10_20_40</pharmacyRider>
+                    <chiroAcupunctureRider>ACCH10_20</chiroAcupunctureRider>
+                </trackingValues>
+            </idCard>
+        </carrier>
+    </envelope>
+</memberIdCards>

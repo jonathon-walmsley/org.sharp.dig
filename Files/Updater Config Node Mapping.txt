@@ -1,0 +1,67 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<n:correspondences xmlns:n="http://www.healthedge.com/connector/schema/correspondence/updater"> Root
+
+    Node updaterConfigRootNode_correspondences = updaterConfigXmlDoc.createElementNS(
+        "http://www.healthedge.com/connector/schema/correspondence/updater", "n:correspondences");
+    updaterConfigXmlDoc.appendChild(updaterConfigRootNode_correspondences);
+
+    <jobType>membership</jobType>
+
+        Node jobTypeNode = updaterConfigXmlDoc.createElement("jobType");
+        jobTypeNode.setTextContent("membership");
+        updaterConfigRootNode_correspondences.appendChild(jobTypeNode);
+
+    <configName>All</configName>
+
+        // Create configName Node for Updater Config XML
+        Node configNameNode = updaterConfigXmlDoc.createElement("configName");
+        configNameNode.setTextContent("All");
+        updaterConfigRootNode_correspondences.appendChild(configNameNode);
+
+    <correspondence> Parent
+
+        <recipient> Parent
+
+            <type>Membership</type>
+
+                Node recipientTypeNode = updaterConfigXmlDoc.createElement("type");
+                recipientTypeNode.setTextContent("Membership");
+                RecipientEle.appendChild(recipientTypeNode);
+
+            <hccId>900000000-01</hccId>
+
+                Node recipientHccIdNode = updaterConfigXmlDoc.createElement("hccId");
+                recipientHccIdNode.setTextContent(subscriberID);
+                RecipientEle.appendChild(recipientHccIdNode);
+                correspondenceNode.appendChild(RecipientEle);
+
+        </recipient>
+
+        <id>100000</id>
+
+            Node idNode = updaterConfigXmlDoc.createElement("id");
+            idNode.setTextContent(idCardInputXmlDoc.getElementsByTagName("correspondenceId").item(0).getTextContent());
+            correspondenceNode.appendChild(idNode);
+
+        <status>p</status>
+
+        <description>Member ID Card - New Member</description>
+
+        <definition>
+
+            <name>Member ID Card - New Member</name>
+
+        </definition>
+
+        <subject>
+
+            <type>Membership</type>
+
+            <hccId>900000000-01</hccId>
+
+        </subject>
+
+    </correspondence>
+
+</n:correspondences> END ROOT

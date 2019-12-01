@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<correspondenceItemList>
+<!--    <extractReason>Test Reason</extractReason>-->
+<!--    <extractTime>2018-10-04T21:22:52.190</extractTime>-->
+<!--    <extractType>Correspondence</extractType>-->
+    <correspondenceItem>
+        <correspondenceId>1000000</correspondenceId>
+        <documentType>Member ID Card - New Member</documentType>
+<!--        <extractTime>2018-10-04T21:22:52.190</extractTime>-->
+<!--        <recipientName>Test Username</recipientName>-->
+        <recipient>
+            <member>
+<!--                <VIP>false</VIP>-->
+                <birthDate>1901-01-11</birthDate>
+                <effectiveDate>2018-10-01</effectiveDate>
+<!--                <emailAddress>test@yahoo.com</emailAddress>-->
+                <firstName>Test</firstName>
+                <gender>Female</gender>
+                <genderCode>F</genderCode>
+                <id>900000000-01</id>
+                <isSubscriber>true</isSubscriber>
+                <lastName>Username</lastName>
+<!--                <maritalStatus>Married</maritalStatus>-->
+<!--                <maritalStatusCode>M</maritalStatusCode>-->
+<!--                <numberOfDependents>0</numberOfDependents>-->
+<!--                <relationshipToSubscriber>Self</relationshipToSubscriber>-->
+<!--                <somkingStatus>3</somkingStatus>-->
+<!--                <n>xxx-xx-xxxx</n>-->
+                <subscriberId>900000000-01</subscriberId>
+<!--                <subscriberSystemId>111111</subscriberSystemId>-->
+                <subscriptionId>900000000</subscriptionId>
+<!--                <subscriptionSystemId>222222</subscriptionSystemId>-->
+<!--                <systemId>333333</systemId>-->
+<!--                <versionEffectiveDate>1800-01-01T00:00:00.000</versionEffectiveDate>-->
+                <account>
+<!--                    <accountType>Small Group</accountType>-->
+<!--                    <accountTypeCode>1</accountTypeCode>-->
+                    <id>1000000-01</id>
+                    <name>Athletic Achievement Inc</name>
+                    <startDate>2015-12-01</startDate>
+<!--                    <systemId>394</systemId>-->
+<!--                    <taxId>00-0000000</taxId>-->
+                    <correspondenceAddress>
+                        <address>1111 Ave Ste A</address>
+                        <city>Oceanside</city>
+                        <countryCode>US</countryCode>
+                        <countyCode>06073</countyCode>
+                        <stateCode>CA</stateCode>
+                        <zipCode>92056</zipCode>
+                        <zipExtension>5825</zipExtension>
+                    </correspondenceAddress>
+<!--                    <udtList>-->
+<!--                        <UDT name="Test Username">-->
+<!--                            <udtName>Test Username</udtName>-->
+<!--                            <attributes>-->
+<!--                                <attribute name="TEST/NON TEST">-->
+<!--                                    <attributeName>TEST/NON TEST</attributeName>-->
+<!--                                    <defaultValue>TEST</defaultValue>-->
+<!--                                    <longName>TEST</longName>-->
+<!--                                    <value>TEST</value>-->
+<!--                                    <valueShortName>TEST</valueShortName>-->
+<!--                                </attribute>-->
+<!--                            </attributes>-->
+<!--                        </UDT>-->
+<!--                    </udtList>-->
+                </account>
+                <correspondenceAddress>
+                    <address>123 Valley Rd Apt 78</address>
+                    <city>San Diego</city>
+                    <countryCode>US</countryCode>
+                    <countyCode>06073</countyCode>
+                    <stateCode>CA</stateCode>
+                    <zipCode>92011</zipCode>
+                    <zipExtension>5111</zipExtension>
+                </correspondenceAddress>
+                <hierarchialAccountInformation>
+                    <parentAccountId>1000000</parentAccountId>
+                    <parentAccountType>Small Group</parentAccountType>
+                    <parentAccountTypeCode>1</parentAccountTypeCode>
+                    <topAccountId>1000000</topAccountId>
+                    <topAccountName>Athletic Achievement Inc</topAccountName>
+                    <topAccountType>Small Group</topAccountType>
+                    <topAccountTypeCode>1</topAccountTypeCode>
+                    <parentContactList>
+                        <contact>
+                            <contactType>Billing</contactType>
+                            <firstName>Test</firstName>
+                            <lastName>Username</lastName>
+                        </contact>
+                    </parentContactList>
+                    <topAccountUDTList>
+                        <UDT name="Test Username">
+                            <udtName>Test Username</udtName>
+                            <attributes>
+                                <attribute name="TEST/NON TEST">
+                                    <attributeName>TEST/NON TEST</attributeName>
+                                    <defaultValue>TEST</defaultValue>
+                                    <longName>TEST</longName>
+                                    <value>TEST</value>
+                                    <valueShortName>TEST</valueShortName>
+                                </attribute>
+                            </attributes>
+                        </UDT>
+                    </topAccountUDTList>
+                </hierarchialAccountInformation>
+                <residentialAddress>
+                    <address>8080 Port Rd</address>
+                    <city>San Diego</city>
+                    <countryCode>US</countryCode>
+                    <countyCode>06073</countyCode>
+                    <stateCode>CA</stateCode>
+                    <zipCode>92000</zipCode>
+                    <zipExtension>0000</zipExtension>
+                </residentialAddress>
+                <subscriberInformation>
+                    <birthDate>1901-01-11</birthDate>
+                    <firstName>Test</firstName>
+                    <gender>Female</gender>
+                    <genderCode>F</genderCode>
+                    <id>900000000-01</id>
+                    <lastName>Username</lastName>
+                    <maritalStatus>Married</maritalStatus>
+                    <maritalStatusCode>M</maritalStatusCode>
+                    <n>xxx-xx-xxxx</n>
+                    <systemId>233996</systemId>
+                </subscriberInformation>
+                <currentPlans>
+                    <planInformation>
+                        <coverageTier>EE Only</coverageTier>
+                        <endDate>3000-01-01</endDate>
+                        <planId>11111111111111</planId>
+                        <planName>HMO GF 1</planName>
+                        <startDate>2018-10-01</startDate>
+                        <product>
+                            <isMedicare>false</isMedicare>
+                            <planType>Medical</planType>
+                            <productName>HMO Small</productName>
+                            <linesOfBusiness>
+                                <lineOfBusiness name="Funding Type">
+                                    <groupName>Funding Type</groupName>
+                                    <lineOfBusinessName>Fully Funded</lineOfBusinessName>
+                                </lineOfBusiness>
+                                <lineOfBusiness name="Business Type">
+                                    <groupName>Business Type</groupName>
+                                    <lineOfBusinessName>Commercial</lineOfBusinessName>
+                                </lineOfBusiness>
+                            </linesOfBusiness>
+                        </product>
+                        <benefitNetworkList>
+                            <benefitNetworkInformation>
+                                <benefitNetworkName>Value</benefitNetworkName>
+                            </benefitNetworkInformation>
+                        </benefitNetworkList>
+                        <otherIdList>
+                            <identificationNumber name="Commercial Group Size">
+                                <idNumber>Small</idNumber>
+                                <idType>Commercial Group Size</idType>
+                                <idTypeCode>1111</idTypeCode>
+                            </identificationNumber>
+                            <identificationNumber name="Commercial Grandfather Status">
+                                <idNumber>GF</idNumber>
+                                <idType>Commercial Grandfather Status</idType>
+                                <idTypeCode>1111</idTypeCode>
+                            </identificationNumber>
+                            <identificationNumber name="MedImpact ID">
+                                <idNumber>11111</idNumber>
+                                <idType>MedImpact ID</idType>
+                                <idTypeCode>1111</idTypeCode>
+                            </identificationNumber>
+                        </otherIdList>
+                        <rider>
+                            <rider>
+                                <coverageSetName>Four Tier</coverageSetName>
+                                <effectiveStartDate>2015-01-01</effectiveStartDate>
+                                <riderName>Four Tier Rider</riderName>
+                                <riderType>BenefitPlanRiderType</riderType>
+                            </rider>
+                            <rider>
+                                <effectiveStartDate>2015-01-01</effectiveStartDate>
+                                <riderName>Network Definition Rider Value</riderName>
+                                <riderType>BenefitPlanRiderType</riderType>
+                            </rider>
+                            <rider>
+                                <effectiveStartDate>2016-01-01</effectiveStartDate>
+                                <riderName>CHB</riderName>
+                                <riderType>BenefitPlanRiderType</riderType>
+                            </rider>
+                        </rider>
+                        <valueList>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>PCP Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Specialist Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Lab Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>X-Ray Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Hospital Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <percentValue>80</percentValue>
+                                <variableName>Diabetic Supplies Coinsurance</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$100.00</currencyValue>
+                                <variableName>Advanced Radiology Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <percentValue>50</percentValue>
+                                <variableName>Durable Medical Equipment Coinsurance</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$100.00</currencyValue>
+                                <variableName>ER Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$100.00</currencyValue>
+                                <variableName>Ambulance Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Urgent Care Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>SNF Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Other Outpatient Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Outpatient Surgery Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$1,500.00</currencyValue>
+                                <variableName>Individual Out of Pocket Maximum</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$3,000.00</currencyValue>
+                                <variableName>Family Out of Pocket Maximum</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Allergy Testing Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Allergy Injections Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Prosthetics/Orthotics Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Prosthetic and Orthotic Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Dialysis Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Infusion Therapy Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Radiation Therapy Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>PT/OT/ST Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$150.00</currencyValue>
+                                <variableName>Sterilization Female Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$75.00</currencyValue>
+                                <variableName>Sterilization Male OP Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$75.00</currencyValue>
+                                <variableName>Sterilization Male Office Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$150.00</currencyValue>
+                                <variableName>Pregnancy Interruption Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <percentValue>50</percentValue>
+                                <variableName>Infertility Underlying Diagnosis Coinsurance</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Home Health Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Hospice Inpatient Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Hospice Outpatient Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Prenatal and Postpartum Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$40.00</currencyValue>
+                                <variableName>Office Visit Copay Minute Clinic</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Flu Shot Copay Minute Clinic</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Retail 30 Day - Generic</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$20.00</currencyValue>
+                                <variableName>Retail 30 Day - Brand</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$40.00</currencyValue>
+                                <variableName>Retail 30 Day - Non Formulary</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$30.00</currencyValue>
+                                <variableName>Retail 90 Day - Generic</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$60.00</currencyValue>
+                                <variableName>Retail 90 Day - Brand</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$120.00</currencyValue>
+                                <variableName>Retail 90 Day - Non Formulary</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$20.00</currencyValue>
+                                <variableName>Mail 90 Day - Generic</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$40.00</currencyValue>
+                                <variableName>Mail 90 Day - Brand</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$80.00</currencyValue>
+                                <variableName>Mail 90 Day - Non Formulary</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Retail 30 Day - Specialty Drug</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Chiropractic Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <countValue>30</countValue>
+                                <variableName>Chiropractic Limit</variableName>
+                            </valueDefinition>
+                        </valueList>
+                    </planInformation>
+                </currentPlans>
+                <currentProviderChoices>
+                    <providerChoice name="PCP">
+                        <affiliatedNetwork>SCMG-Graybill</affiliatedNetwork>
+                        <choiceType>PCP</choiceType>
+                        <endDate>3000-01-01</endDate>
+                        <firstName>MD</firstName>
+                        <lastName>Short</lastName>
+                        <providerChoiceReason>Auto Assigned</providerChoiceReason>
+                        <providerChoiceReasonCode>1</providerChoiceReasonCode>
+                        <providerId>P000041</providerId>
+                        <providerNPI>11111111</providerNPI>
+                        <providerPhone>866-111-2116</providerPhone>
+                        <providerRoleName>PCP - P011111221 - S0001 - 11 Heros Dr</providerRoleName>
+                        <startDate>2018-10-01</startDate>
+                        <supplierName>Graybill Medical Group Inc</supplierName>
+                        <supplierPhone>123-123-1234</supplierPhone>
+                    </providerChoice>
+                </currentProviderChoices>
+                <otherIds>
+                    <identificationNumber>
+                        <idNumber>900000000-01</idNumber>
+                        <idTypeCode>2</idTypeCode>
+                    </identificationNumber>
+                    <identificationNumber>
+                        <idNumber>xxx-xx-xxxx</idNumber>
+                        <idTypeCode>FI</idTypeCode>
+                    </identificationNumber>
+                </otherIds>
+            </member>
+        </recipient>
+        <recipientAddress>
+            <address>123 Valley Rd</address>
+            <city>San Diego</city>
+            <countryCode>US</countryCode>
+            <countyCode>06073</countyCode>
+            <stateCode>CA</stateCode>
+            <zipCode>92111</zipCode>
+            <zipExtension>1111</zipExtension>
+        </recipientAddress>
+        <subject>
+            <member>
+                <VIP>false</VIP>
+                <birthDate>1901-01-11</birthDate>
+                <effectiveDate>2018-10-01</effectiveDate>
+                <emailAddress>test@yahoo.com</emailAddress>
+                <firstName>Test</firstName>
+                <gender>Female</gender>
+                <genderCode>F</genderCode>
+                <id>900000000-01</id>
+                <isSubscriber>true</isSubscriber>
+                <lastName>Username</lastName>
+                <maritalStatus>Married</maritalStatus>
+                <maritalStatusCode>M</maritalStatusCode>
+                <numberOfDependents>0</numberOfDependents>
+                <relationshipToSubscriber>Self</relationshipToSubscriber>
+                <somkingStatus>3</somkingStatus>
+                <ssn>xxx-xx-xxxx</ssn>
+                <subscriberId>900000000-01</subscriberId>
+                <subscriberSystemId>111111</subscriberSystemId>
+                <subscriptionId>900000000</subscriptionId>
+                <subscriptionSystemId>222222</subscriptionSystemId>
+                <systemId>333333</systemId>
+                <versionEffectiveDate>1800-01-01T00:00:00.000</versionEffectiveDate>
+                <account>
+                    <accountType>Small Group</accountType>
+                    <accountTypeCode>1</accountTypeCode>
+                    <id>1000000-01</id>
+                    <name>Athletic Achievement Inc</name>
+                    <startDate>2015-12-01</startDate>
+                    <systemId>394</systemId>
+                    <taxId>00-0000000</taxId>
+                    <correspondenceAddress>
+                        <address>1111 Ave Ste A</address>
+                        <city>Oceanside</city>
+                        <countryCode>US</countryCode>
+                        <countyCode>06073</countyCode>
+                        <stateCode>CA</stateCode>
+                        <zipCode>92056</zipCode>
+                        <zipExtension>5825</zipExtension>
+                    </correspondenceAddress>
+                    <udtList>
+                        <UDT name="Test Username">
+                            <udtName>Test Username</udtName>
+                            <attributes>
+                                <attribute name="TEST/NON TEST">
+                                    <attributeName>TEST/NON TEST</attributeName>
+                                    <defaultValue>TEST</defaultValue>
+                                    <longName>TEST</longName>
+                                    <value>TEST</value>
+                                    <valueShortName>TEST</valueShortName>
+                                </attribute>
+                            </attributes>
+                        </UDT>
+                    </udtList>
+                </account>
+                <correspondenceAddress>
+                    <address>123 Valley Rd Apt 78</address>
+                    <city>San Diego</city>
+                    <countryCode>US</countryCode>
+                    <countyCode>06073</countyCode>
+                    <stateCode>CA</stateCode>
+                    <zipCode>92011</zipCode>
+                    <zipExtension>5111</zipExtension>
+                </correspondenceAddress>
+                <hierarchialAccountInformation>
+                    <parentAccountId>1000000</parentAccountId>
+                    <parentAccountType>Small Group</parentAccountType>
+                    <parentAccountTypeCode>1</parentAccountTypeCode>
+                    <topAccountId>1000000</topAccountId>
+                    <topAccountName>Athletic Achievement Inc</topAccountName>
+                    <topAccountType>Small Group</topAccountType>
+                    <topAccountTypeCode>1</topAccountTypeCode>
+                    <parentContactList>
+                        <contact>
+                            <contactType>Billing</contactType>
+                            <firstName>Test</firstName>
+                            <lastName>Username</lastName>
+                        </contact>
+                    </parentContactList>
+                    <topAccountUDTList>
+                        <UDT name="Test Username">
+                            <udtName>Test Username</udtName>
+                            <attributes>
+                                <attribute name="TEST/NON TEST">
+                                    <attributeName>TEST/NON TEST</attributeName>
+                                    <defaultValue>TEST</defaultValue>
+                                    <longName>TEST</longName>
+                                    <value>TEST</value>
+                                    <valueShortName>TEST</valueShortName>
+                                </attribute>
+                            </attributes>
+                        </UDT>
+                    </topAccountUDTList>
+                </hierarchialAccountInformation>
+                <residentialAddress>
+                    <address>8080 Port Rd</address>
+                    <city>San Diego</city>
+                    <countryCode>US</countryCode>
+                    <countyCode>06073</countyCode>
+                    <stateCode>CA</stateCode>
+                    <zipCode>92000</zipCode>
+                    <zipExtension>0000</zipExtension>
+                </residentialAddress>
+                <subscriberInformation>
+                    <birthDate>1901-01-11</birthDate>
+                    <firstName>Test</firstName>
+                    <gender>Female</gender>
+                    <genderCode>F</genderCode>
+                    <id>900000000-01</id>
+                    <lastName>Username</lastName>
+                    <maritalStatus>Married</maritalStatus>
+                    <maritalStatusCode>M</maritalStatusCode>
+                    <n>xxx-xx-xxxx</n>
+                    <systemId>233996</systemId>
+                </subscriberInformation>
+                <currentPlans>
+                    <planInformation>
+                        <coverageTier>EE Only</coverageTier>
+                        <endDate>3000-01-01</endDate>
+                        <planId>11111111111111</planId>
+                        <planName>HMO GF 1</planName>
+                        <startDate>2018-10-01</startDate>
+                        <product>
+                            <isMedicare>false</isMedicare>
+                            <planType>Medical</planType>
+                            <productName>HMO Small</productName>
+                            <linesOfBusiness>
+                                <lineOfBusiness name="Funding Type">
+                                    <groupName>Funding Type</groupName>
+                                    <lineOfBusinessName>Fully Funded</lineOfBusinessName>
+                                </lineOfBusiness>
+                                <lineOfBusiness name="Business Type">
+                                    <groupName>Business Type</groupName>
+                                    <lineOfBusinessName>Commercial</lineOfBusinessName>
+                                </lineOfBusiness>
+                            </linesOfBusiness>
+                        </product>
+                        <benefitNetworkList>
+                            <benefitNetworkInformation>
+                                <benefitNetworkName>Value</benefitNetworkName>
+                            </benefitNetworkInformation>
+                        </benefitNetworkList>
+                        <otherIdList>
+                            <identificationNumber name="Commercial Group Size">
+                                <idNumber>Small</idNumber>
+                                <idType>Commercial Group Size</idType>
+                                <idTypeCode>1111</idTypeCode>
+                            </identificationNumber>
+                            <identificationNumber name="Commercial Grandfather Status">
+                                <idNumber>GF</idNumber>
+                                <idType>Commercial Grandfather Status</idType>
+                                <idTypeCode>1111</idTypeCode>
+                            </identificationNumber>
+                            <identificationNumber name="MedImpact ID">
+                                <idNumber>11111</idNumber>
+                                <idType>MedImpact ID</idType>
+                                <idTypeCode>1111</idTypeCode>
+                            </identificationNumber>
+                        </otherIdList>
+                        <rider>
+                            <rider>
+                                <coverageSetName>Four Tier</coverageSetName>
+                                <effectiveStartDate>2015-01-01</effectiveStartDate>
+                                <riderName>Four Tier Rider</riderName>
+                                <riderType>BenefitPlanRiderType</riderType>
+                            </rider>
+                            <rider>
+                                <effectiveStartDate>2015-01-01</effectiveStartDate>
+                                <riderName>Network Definition Rider Value</riderName>
+                                <riderType>BenefitPlanRiderType</riderType>
+                            </rider>
+                            <rider>
+                                <effectiveStartDate>2016-01-01</effectiveStartDate>
+                                <riderName>CHB</riderName>
+                                <riderType>BenefitPlanRiderType</riderType>
+                            </rider>
+                        </rider>
+                        <valueList>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>PCP Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Specialist Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Lab Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>X-Ray Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Hospital Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <percentValue>80</percentValue>
+                                <variableName>Diabetic Supplies Coinsurance</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$100.00</currencyValue>
+                                <variableName>Advanced Radiology Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <percentValue>50</percentValue>
+                                <variableName>Durable Medical Equipment Coinsurance</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$100.00</currencyValue>
+                                <variableName>ER Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$100.00</currencyValue>
+                                <variableName>Ambulance Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Urgent Care Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>SNF Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Other Outpatient Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Outpatient Surgery Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$1,500.00</currencyValue>
+                                <variableName>Individual Out of Pocket Maximum</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$3,000.00</currencyValue>
+                                <variableName>Family Out of Pocket Maximum</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Allergy Testing Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Allergy Injections Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Prosthetics/Orthotics Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Prosthetic and Orthotic Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Dialysis Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Infusion Therapy Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Radiation Therapy Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>PT/OT/ST Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$150.00</currencyValue>
+                                <variableName>Sterilization Female Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$75.00</currencyValue>
+                                <variableName>Sterilization Male OP Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$75.00</currencyValue>
+                                <variableName>Sterilization Male Office Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$150.00</currencyValue>
+                                <variableName>Pregnancy Interruption Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <percentValue>50</percentValue>
+                                <variableName>Infertility Underlying Diagnosis Coinsurance</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Home Health Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Hospice Inpatient Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Hospice Outpatient Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Prenatal and Postpartum Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$40.00</currencyValue>
+                                <variableName>Office Visit Copay Minute Clinic</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Flu Shot Copay Minute Clinic</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Retail 30 Day - Generic</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$20.00</currencyValue>
+                                <variableName>Retail 30 Day - Brand</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$40.00</currencyValue>
+                                <variableName>Retail 30 Day - Non Formulary</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$30.00</currencyValue>
+                                <variableName>Retail 90 Day - Generic</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$60.00</currencyValue>
+                                <variableName>Retail 90 Day - Brand</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$120.00</currencyValue>
+                                <variableName>Retail 90 Day - Non Formulary</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$20.00</currencyValue>
+                                <variableName>Mail 90 Day - Generic</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$40.00</currencyValue>
+                                <variableName>Mail 90 Day - Brand</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$80.00</currencyValue>
+                                <variableName>Mail 90 Day - Non Formulary</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$0.00</currencyValue>
+                                <variableName>Retail 30 Day - Specialty Drug</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <currencyValue>$10.00</currencyValue>
+                                <variableName>Chiropractic Copay</variableName>
+                            </valueDefinition>
+                            <valueDefinition>
+                                <countValue>30</countValue>
+                                <variableName>Chiropractic Limit</variableName>
+                            </valueDefinition>
+                        </valueList>
+                    </planInformation>
+                </currentPlans>
+                <currentProviderChoices>
+                    <providerChoice name="PCP">
+                        <affiliatedNetwork>SCMG-Graybill</affiliatedNetwork>
+                        <choiceType>PCP</choiceType>
+                        <endDate>3000-01-01</endDate>
+                        <firstName>MD</firstName>
+                        <lastName>Short</lastName>
+                        <providerChoiceReason>Auto Assigned</providerChoiceReason>
+                        <providerChoiceReasonCode>1</providerChoiceReasonCode>
+                        <providerId>P000041</providerId>
+                        <providerNPI>11111111</providerNPI>
+                        <providerPhone>866-111-2116</providerPhone>
+                        <providerRoleName>PCP - P011111221 - S0001 - 11 Heros Dr</providerRoleName>
+                        <startDate>2018-10-01</startDate>
+                        <supplierName>Graybill Medical Group Inc</supplierName>
+                        <supplierPhone>123-123-1234</supplierPhone>
+                    </providerChoice>
+                </currentProviderChoices>
+                <otherIds>
+                    <identificationNumber>
+                        <idNumber>900000000-01</idNumber>
+                        <idTypeCode>2</idTypeCode>
+                    </identificationNumber>
+                    <identificationNumber>
+                        <idNumber>xxx-xx-xxxx</idNumber>
+                        <idTypeCode>FI</idTypeCode>
+                    </identificationNumber>
+                </otherIds>
+            </member>
+        </subject>
+    </correspondenceItem>
+</correspondenceItemList>

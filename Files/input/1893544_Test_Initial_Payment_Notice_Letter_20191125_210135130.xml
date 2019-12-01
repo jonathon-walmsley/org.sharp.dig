@@ -1,0 +1,3455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<correspondenceItemList>
+ <extractReason>Test Reason</extractReason>
+ <extractTime>2019-11-25T21:01:34.950</extractTime>
+ <extractType>Correspondence</extractType>
+ <correspondenceItem>
+  <correspondenceId>123566</correspondenceId>
+  <documentType>Initial Payment Notice Letter</documentType>
+  <extractTime>2019-11-25T21:01:34.950</extractTime>
+  <recipientName>Teest McTesterson</recipientName>
+  <recipient>
+   <member>
+    <VIP>false</VIP>
+    <birthDate>1957-11-23</birthDate>
+    <effectiveDate>2018-01-01</effectiveDate>
+    <emailAddress>test@testldds.com</emailAddress>
+    <ethnicity>Other Race Or Ethnicity</ethnicity>
+    <ethnicityCode>E</ethnicityCode>
+    <firstName>Teest</firstName>
+    <gender>Male</gender>
+    <genderCode>M</genderCode>
+    <id>920000000-01</id>
+    <isSubscriber>true</isSubscriber>
+    <lastName>test</lastName>
+    <maritalStatus>Married</maritalStatus>
+    <maritalStatusCode>M</maritalStatusCode>
+    <numberOfDependents>0</numberOfDependents>
+    <relationshipToSubscriber>Self</relationshipToSubscriber>
+    <somkingStatus>2</somkingStatus>
+    <subscriberId>920000000-01</subscriberId>
+    <subscriberSystemId>170506</subscriberSystemId>
+    <subscriptionId>920000000</subscriptionId>
+    <subscriptionSystemId>102403</subscriptionSystemId>
+    <systemId>170506</systemId>
+    <versionEffectiveDate>2019-01-01T00:00:00.000</versionEffectiveDate>
+    <account>
+     <accountType>Individual</accountType>
+     <accountTypeCode>3</accountTypeCode>
+     <id>1009001-01</id>
+     <name>IFP Off Exchange</name>
+     <startDate>2015-01-01</startDate>
+     <systemId>4</systemId>
+     <taxId>33-1111111</taxId>
+     <correspondenceAddress>
+      <address>8520 Tech Way Ste 200</address>
+      <city>San Diego</city>
+      <countryCode>US</countryCode>
+      <countyCode>06073</countyCode>
+      <stateCode>CA</stateCode>
+      <zipCode>92123</zipCode>
+      <zipExtension>1450</zipExtension>
+     </correspondenceAddress>
+     <udtList>
+      <UDT name="ERISA Eligible">
+       <udtName>ERISA Eligible</udtName>
+       <attributes>
+        <attribute name="ERISA/NON ERISA">
+         <attributeName>ERISA/NON ERISA</attributeName>
+         <defaultValue>ERISA</defaultValue>
+         <longName>ERISA</longName>
+         <value>ERISA</value>
+         <valueShortName>ERISA</valueShortName>
+        </attribute>
+       </attributes>
+      </UDT>
+     </udtList>
+    </account>
+    <correspondenceAddress>
+     <address>145 Ln</address>
+     <city>El Cajon</city>
+     <countryCode>US</countryCode>
+     <countyCode>06073</countyCode>
+     <stateCode>CA</stateCode>
+     <zipCode>92019</zipCode>
+     <zipExtension>7000</zipExtension>
+    </correspondenceAddress>
+    <hierarchialAccountInformation>
+     <parentAccountId>1009001</parentAccountId>
+     <parentAccountType>Individual</parentAccountType>
+     <parentAccountTypeCode>3</parentAccountTypeCode>
+     <topAccountId>1009001</topAccountId>
+     <topAccountName>IFP Off Exchange</topAccountName>
+     <topAccountType>Individual</topAccountType>
+     <topAccountTypeCode>3</topAccountTypeCode>
+     <parentContactList>
+      <contact>
+       <contactType>Other</contactType>
+       <firstName>Enrollment</firstName>
+       <lastName>Department</lastName>
+      </contact>
+     </parentContactList>
+     <topAccountUDTList>
+      <UDT name="ERISA Eligible">
+       <udtName>ERISA Eligible</udtName>
+       <attributes>
+        <attribute name="ERISA/NON ERISA">
+         <attributeName>ERISA/NON ERISA</attributeName>
+         <defaultValue>ERISA</defaultValue>
+         <longName>ERISA</longName>
+         <value>ERISA</value>
+         <valueShortName>ERISA</valueShortName>
+        </attribute>
+       </attributes>
+      </UDT>
+      <UDT name="HSA Banking Partner">
+       <udtName>HSA Banking Partner</udtName>
+       <attributes>
+        <attribute name="HSA Banking Partner">
+         <attributeName>HSA Banking Partner</attributeName>
+         <defaultValue>No Banking Partner</defaultValue>
+         <longName>Health Equity</longName>
+         <value>Health Equity</value>
+         <valueShortName>Health Equity</valueShortName>
+        </attribute>
+       </attributes>
+      </UDT>
+     </topAccountUDTList>
+    </hierarchialAccountInformation>
+    <residentialAddress>
+     <address>145  Ln</address>
+     <city>El Cajon</city>
+     <countryCode>US</countryCode>
+     <countyCode>06073</countyCode>
+     <stateCode>CA</stateCode>
+     <zipCode>92019</zipCode>
+     <zipExtension>7000</zipExtension>
+    </residentialAddress>
+    <subscriberInformation>
+     <birthDate>1957-11-23</birthDate>
+     <firstName>Teest</firstName>
+     <gender>Male</gender>
+     <genderCode>M</genderCode>
+     <id>920000000-01</id>
+     <lastName>McTesterson</lastName>
+     <maritalStatus>Married</maritalStatus>
+     <maritalStatusCode>M</maritalStatusCode>
+     <systemId>170506</systemId>
+    </subscriberInformation>
+    <historicalPlans>
+     <planInformation>
+      <endDate>2019-01-01</endDate>
+      <planId>2026104100900101</planId>
+      <planName>Sharp Bronze 60 HDHP HMO Premier</planName>
+      <startDate>2018-01-01</startDate>
+      <product>
+       <isMedicare>false</isMedicare>
+       <planType>Medical</planType>
+       <productName>Off Exchange IFP</productName>
+       <linesOfBusiness>
+        <lineOfBusiness name="Funding Type">
+         <groupName>Funding Type</groupName>
+         <lineOfBusinessName>Fully Funded</lineOfBusinessName>
+        </lineOfBusiness>
+        <lineOfBusiness name="Business Type">
+         <groupName>Business Type</groupName>
+         <lineOfBusinessName>Individual</lineOfBusinessName>
+        </lineOfBusiness>
+       </linesOfBusiness>
+      </product>
+      <benefitNetworkList>
+       <benefitNetworkInformation>
+        <benefitNetworkName>Premier</benefitNetworkName>
+       </benefitNetworkInformation>
+      </benefitNetworkList>
+      <otherIdList>
+       <identificationNumber name="HIOS ID">
+        <idNumber>92499CA002000900</idNumber>
+        <idType>HIOS ID</idType>
+        <idTypeCode>OI1</idTypeCode>
+       </identificationNumber>
+       <identificationNumber name="MedImpact ID">
+        <idNumber>73170</idNumber>
+        <idType>MedImpact ID</idType>
+        <idTypeCode>OI32</idTypeCode>
+       </identificationNumber>
+      </otherIdList>
+      <valueList>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>PCP Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Specialist Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Urgent Care Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Hospital Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>ER Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Ambulance Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Acupuncture Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Advanced Radiology Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Allergy Testing Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Allergy Injections Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Autism Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Chemical Dependency Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Chemical Dependency Group Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Chemical Dependency Group Therapy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Durable Medical Equipment Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Diabetic Supplies Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Dialysis Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>ER Physician Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Home Health Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Hospice Inpatient Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Hospice Outpatient Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Habilitation Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Infusion Therapy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Imaging Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Interruption of Pregnancy Office Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Interruption of Pregnancy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Lab Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Mental Health Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Mental Health Office Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Mental Health Group Therapy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Medical Supplies Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Other Outpatient Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Outpatient Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Physician/Surgeon Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>PT/OT/ST Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Prosthetics and Orthotics Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Radiology Services Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Radiation Therapy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>SNF Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Sterilization Male Outpatient Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Voluntary Sterilization Male Office Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Voluntary Sterilization Outpatient Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>X-Ray Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$4,800.00</currencyValue>
+        <variableName>Self Coverage Deductible</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,550.00</currencyValue>
+        <variableName>Self Coverage Out of Pocket Maximum</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$4,800.00</currencyValue>
+        <variableName>Individual Deductible</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$9,600.00</currencyValue>
+        <variableName>Family Deductible</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,550.00</currencyValue>
+        <variableName>Individual Out of Pocket Maximum</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$13,100.00</currencyValue>
+        <variableName>Family Out of Pocket Maximum</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$30.00</currencyValue>
+        <variableName>Pediatric Vision Lenses Single Vision OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Pediatric Vision Lenses Lined Bifocal OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$60.00</currencyValue>
+        <variableName>Pediatric Vision Lenses Lined Trifocal OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$70.00</currencyValue>
+        <variableName>Pediatric Vision Contact Lenses OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$70.00</currencyValue>
+        <variableName>Pediatric Vision Exam OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$70.00</currencyValue>
+        <variableName>Pediatric Vision Frames OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Office Visit Copay Minute Clinic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$10.00</currencyValue>
+        <variableName>Flu Shot Copay Minute Clinic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>RX Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Preventive Pediatric Dental</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Diagnostic Pediatric Dental</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Full Cast</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$350.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Porcelain/Ceramic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$300.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Porcelain/Resin</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$160.00</currencyValue>
+        <variableName>Restorative Ped Dent Onlay Metallic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$150.00</currencyValue>
+        <variableName>Restorative Ped Dent Prefab SS Crown</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$25.00</currencyValue>
+        <variableName>Restorative Ped Dent Amalgam One Surface</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Restorative Ped Dent Amalgam Two Plus Surfaces</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$100.00</currencyValue>
+        <variableName>Restorative Ped Dental Core Buildup Incl Pins</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Repair</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Restorative Ped Dent Pin Retention</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$100.00</currencyValue>
+        <variableName>Restorative Ped Dent Post and Core</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$100.00</currencyValue>
+        <variableName>Restorative Ped Dent Prefab Post and Core</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Restorative Ped Dent Recement</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Restorative Ped Dent Resin-based composite</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Restorative Ped Dent Sedative Filling</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$75.00</currencyValue>
+        <variableName>Periodontics Scaling and Root Planing Four or More</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Periodontics Scaling and Root Planing One to Three</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$875.00</currencyValue>
+        <variableName>Orthodontics Ped Dent</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Orthodontics Ped Dent Retention</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$25.00</currencyValue>
+        <variableName>Orthodontics Ped Dent Treatment Plan</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Oral Surgery Ped Dent I&amp;D</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$135.00</currencyValue>
+        <variableName>Oral Surgery Ped Dent Removal of Impacted Tooth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$135.00</currencyValue>
+        <variableName>Oral Surgery Ped Dent Removal Erupted Tooth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$156.00</currencyValue>
+        <variableName>Oral Surgery Ped Dental Alveoloplasty</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$45.00</currencyValue>
+        <variableName>Oral Surgery Extraction Coronal Remnants</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$52.00</currencyValue>
+        <variableName>Oral Surgery Frenulectomy</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$65.00</currencyValue>
+        <variableName>Oral Surgery Extract Erupted Tooth or Exposed Root</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$76.00</currencyValue>
+        <variableName>Oral Surgery Removal of Torus Palatinus</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$130.00</currencyValue>
+        <variableName>Oral Surgrey I&amp;D of Abscess</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$130.00</currencyValue>
+        <variableName>Oral Surgery Removal of Torus Mandibularis</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$160.00</currencyValue>
+        <variableName>Oral Surgery Removal of Impacted Tooth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Fixed Prosthodontics Ped Dent Crowns and Pontic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$33.00</currencyValue>
+        <variableName>Fixed Prosthodontics Recement Fixed Partial</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$91.00</currencyValue>
+        <variableName>Fixed Prosthodontics Fixed Partial Repair</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Adjust Mandibular</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$75.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Tissue Conditioning</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$125.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$150.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Lab Mandibular Denture</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$234.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Replace all Teeth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$250.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Interim Partial</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Complete Denture</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Endodontics Ped Dent Pulp Cap</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$104.00</currencyValue>
+        <variableName>Endodontics Ped Dent Apexification</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$390.00</currencyValue>
+        <variableName>Endodontics Ped Dent Retreat Root Canal</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Endodontics Therapeutic Pulpotomy</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$111.00</currencyValue>
+        <variableName>Endodontics Root Amputation</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$130.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Each Addl</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$201.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Anterior</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$215.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Bicuspid</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$228.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Molar</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$300.00</currencyValue>
+        <variableName>Endodontics Anterior Root Canal</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$300.00</currencyValue>
+        <variableName>Endodontics Molar</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Endodontics Bicuspid Root Canal</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$150.00</currencyValue>
+        <variableName>Periodontics Gingivectomy/Gingivoplasty</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$507.00</currencyValue>
+        <variableName>Periodontics Osseous Surgery Four or More</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$403.00</currencyValue>
+        <variableName>Periodontics Osseous Surgery One to Three</variableName>
+       </valueDefinition>
+      </valueList>
+     </planInformation>
+     <planInformation>
+      <endDate>2019-01-01</endDate>
+      <planId>2037904100900101</planId>
+      <planName>Sharp Bronze 60 HDHP HMO Premier</planName>
+      <startDate>2019-01-01</startDate>
+      <product>
+       <isMedicare>false</isMedicare>
+       <planType>Medical</planType>
+       <productName>Off Exchange IFP</productName>
+       <linesOfBusiness>
+        <lineOfBusiness name="Funding Type">
+         <groupName>Funding Type</groupName>
+         <lineOfBusinessName>Fully Funded</lineOfBusinessName>
+        </lineOfBusiness>
+        <lineOfBusiness name="Business Type">
+         <groupName>Business Type</groupName>
+         <lineOfBusinessName>Individual</lineOfBusinessName>
+        </lineOfBusiness>
+       </linesOfBusiness>
+      </product>
+      <benefitNetworkList>
+       <benefitNetworkInformation>
+        <benefitNetworkName>Premier</benefitNetworkName>
+       </benefitNetworkInformation>
+      </benefitNetworkList>
+      <otherIdList>
+       <identificationNumber name="HIOS ID">
+        <idNumber>92499CA002000900</idNumber>
+        <idType>HIOS ID</idType>
+        <idTypeCode>OI1</idTypeCode>
+       </identificationNumber>
+       <identificationNumber name="MedImpact ID">
+        <idNumber>P0135</idNumber>
+        <idType>MedImpact ID</idType>
+        <idTypeCode>OI32</idTypeCode>
+       </identificationNumber>
+       <identificationNumber name="Commercial Group Size">
+        <idNumber>Mega</idNumber>
+        <idType>Commercial Group Size</idType>
+        <idTypeCode>OI30</idTypeCode>
+       </identificationNumber>
+       <identificationNumber name="Commercial Grandfather Status">
+        <idNumber>NG</idNumber>
+        <idType>Commercial Grandfather Status</idType>
+        <idTypeCode>OI31</idTypeCode>
+       </identificationNumber>
+      </otherIdList>
+      <valueList>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>PCP Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Specialist Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Urgent Care Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Urgent Care MH &amp; CD Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Hospital Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>ER Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Ambulance Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Acupuncture Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Advanced Radiology Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Allergy Testing Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Allergy Injections Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Chemical Dependency Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Chemical Dependency Group Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Durable Medical Equipment Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Diabetic Supplies Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Dialysis Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>ER Physician Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Home Health Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Hospice Inpatient Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Hospice Outpatient Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Habilitation Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Infusion Therapy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Interruption of Pregnancy Office Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Interruption of Pregnancy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Lab Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Mental Health Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Mental Health Group Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Medical Supplies Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Outpatient Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Physician/Surgeon Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>PT/OT/ST Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Prosthetics and Orthotics Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Radiology Services Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Radiation Therapy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>SNF Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Voluntary Sterilization Male Office Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Voluntary Sterilization Outpatient Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,000.00</currencyValue>
+        <variableName>Self Coverage Deductible</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,650.00</currencyValue>
+        <variableName>Self Coverage Out of Pocket Maximum</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,000.00</currencyValue>
+        <variableName>Individual Deductible</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$12,000.00</currencyValue>
+        <variableName>Family Deductible</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,650.00</currencyValue>
+        <variableName>Individual Out of Pocket Maximum</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$13,300.00</currencyValue>
+        <variableName>Family Out of Pocket Maximum</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$30.00</currencyValue>
+        <variableName>Pediatric Vision Lenses Single Vision OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Pediatric Vision Lenses Lined Bifocal OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$60.00</currencyValue>
+        <variableName>Pediatric Vision Lenses Lined Trifocal OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$70.00</currencyValue>
+        <variableName>Pediatric Vision Contact Lenses OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$70.00</currencyValue>
+        <variableName>Pediatric Vision Exam OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$70.00</currencyValue>
+        <variableName>Pediatric Vision Frames OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>RX Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Preventive Pediatric Dental</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Diagnostic Pediatric Dental</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Full Cast</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$350.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Porcelain/Ceramic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$300.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Porcelain/Resin</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$160.00</currencyValue>
+        <variableName>Restorative Ped Dent Onlay Metallic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$150.00</currencyValue>
+        <variableName>Restorative Ped Dent Prefab SS Crown</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$25.00</currencyValue>
+        <variableName>Restorative Ped Dent Amalgam One Surface</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Restorative Ped Dent Amalgam Two Plus Surfaces</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$100.00</currencyValue>
+        <variableName>Restorative Ped Dental Core Buildup Incl Pins</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Repair</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Restorative Ped Dent Pin Retention</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$100.00</currencyValue>
+        <variableName>Restorative Ped Dent Post and Core</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$100.00</currencyValue>
+        <variableName>Restorative Ped Dent Prefab Post and Core</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Restorative Ped Dent Recement</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Restorative Ped Dent Resin-based composite</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Restorative Ped Dent Sedative Filling</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$75.00</currencyValue>
+        <variableName>Periodontics Scaling and Root Planing Four or More</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Periodontics Scaling and Root Planing One to Three</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$875.00</currencyValue>
+        <variableName>Orthodontics Ped Dent</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Orthodontics Ped Dent Retention</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$25.00</currencyValue>
+        <variableName>Orthodontics Ped Dent Treatment Plan</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Oral Surgery Ped Dent I&amp;D</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$135.00</currencyValue>
+        <variableName>Oral Surgery Ped Dent Removal of Impacted Tooth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$135.00</currencyValue>
+        <variableName>Oral Surgery Ped Dent Removal Erupted Tooth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$156.00</currencyValue>
+        <variableName>Oral Surgery Ped Dental Alveoloplasty</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$45.00</currencyValue>
+        <variableName>Oral Surgery Extraction Coronal Remnants</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$52.00</currencyValue>
+        <variableName>Oral Surgery Frenulectomy</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$65.00</currencyValue>
+        <variableName>Oral Surgery Extract Erupted Tooth or Exposed Root</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$76.00</currencyValue>
+        <variableName>Oral Surgery Removal of Torus Palatinus</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$130.00</currencyValue>
+        <variableName>Oral Surgrey I&amp;D of Abscess</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$130.00</currencyValue>
+        <variableName>Oral Surgery Removal of Torus Mandibularis</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$160.00</currencyValue>
+        <variableName>Oral Surgery Removal of Impacted Tooth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Fixed Prosthodontics Ped Dent Crowns and Pontic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$33.00</currencyValue>
+        <variableName>Fixed Prosthodontics Recement Fixed Partial</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$91.00</currencyValue>
+        <variableName>Fixed Prosthodontics Fixed Partial Repair</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Adjust Mandibular</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$75.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Tissue Conditioning</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$125.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$150.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Lab Mandibular Denture</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$234.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Replace all Teeth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$250.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Interim Partial</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Complete Denture</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Endodontics Ped Dent Pulp Cap</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$104.00</currencyValue>
+        <variableName>Endodontics Ped Dent Apexification</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$390.00</currencyValue>
+        <variableName>Endodontics Ped Dent Retreat Root Canal</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Endodontics Therapeutic Pulpotomy</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$111.00</currencyValue>
+        <variableName>Endodontics Root Amputation</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$130.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Each Addl</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$201.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Anterior</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$215.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Bicuspid</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$228.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Molar</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$300.00</currencyValue>
+        <variableName>Endodontics Anterior Root Canal</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$300.00</currencyValue>
+        <variableName>Endodontics Molar</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Endodontics Bicuspid Root Canal</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$150.00</currencyValue>
+        <variableName>Periodontics Gingivectomy/Gingivoplasty</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$507.00</currencyValue>
+        <variableName>Periodontics Osseous Surgery Four or More</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$403.00</currencyValue>
+        <variableName>Periodontics Osseous Surgery One to Three</variableName>
+       </valueDefinition>
+      </valueList>
+     </planInformation>
+    </historicalPlans>
+    <historicalProviderChoices>
+     <providerChoice name="PCP">
+      <affiliatedNetwork>SCMG</affiliatedNetwork>
+      <choiceType>PCP</choiceType>
+      <endDate>2019-01-01</endDate>
+      <firstName>Nossa</firstName>
+      <lastName>Maya</lastName>
+      <providerId>P0000000699</providerId>
+      <providerNPI>1184825754</providerNPI>
+      <providerPhone>619-841-8148</providerPhone>
+      <providerRoleName>PCP-P0000000699-S0000000504-671 S Mollison Ave Ste</providerRoleName>
+      <startDate>2018-01-01</startDate>
+      <supplierName>Lung Sleep and Medicine Institute A Professional Medical Corporation</supplierName>
+      <supplierPhone>619-841-8148</supplierPhone>
+     </providerChoice>
+     <providerChoice name="PCP">
+      <affiliatedNetwork>SCMG</affiliatedNetwork>
+      <choiceType>PCP</choiceType>
+      <endDate>3000-01-01</endDate>
+      <firstName>Nossa</firstName>
+      <lastName>Maya</lastName>
+      <providerId>P0000000699</providerId>
+      <providerNPI>1184825754</providerNPI>
+      <providerPhone>619-841-8148</providerPhone>
+      <providerRoleName>PCP-P0000000699-S0000000504-671 S Mollison Ave Ste</providerRoleName>
+      <startDate>2020-01-01</startDate>
+      <supplierName>Lung Sleep and Medicine Institute A Professional Medical Corporation</supplierName>
+      <supplierPhone>619-841-8148</supplierPhone>
+     </providerChoice>
+    </historicalProviderChoices>
+    <otherIds>
+     <identificationNumber>
+      <idNumber>U008937401</idNumber>
+      <idTypeCode>OI34</idTypeCode>
+     </identificationNumber>
+     <identificationNumber>
+      <idNumber>920000000-01</idNumber>
+      <idTypeCode>2</idTypeCode>
+     </identificationNumber>
+     <identificationNumber>
+      <idNumber>560-11-0359</idNumber>
+      <idTypeCode>FI</idTypeCode>
+     </identificationNumber>
+    </otherIds>
+    <pendingPlans>
+     <planInformation>
+      <endDate>3000-01-01</endDate>
+      <planId>2059904100900101</planId>
+      <planName>Sharp Bronze 60 Premier HDHP HMO</planName>
+      <startDate>2020-01-01</startDate>
+      <product>
+       <isMedicare>false</isMedicare>
+       <planType>Medical</planType>
+       <productName>Off Exchange IFP</productName>
+       <linesOfBusiness>
+        <lineOfBusiness name="Funding Type">
+         <groupName>Funding Type</groupName>
+         <lineOfBusinessName>Fully Funded</lineOfBusinessName>
+        </lineOfBusiness>
+        <lineOfBusiness name="Business Type">
+         <groupName>Business Type</groupName>
+         <lineOfBusinessName>Individual</lineOfBusinessName>
+        </lineOfBusiness>
+       </linesOfBusiness>
+      </product>
+      <benefitNetworkList>
+       <benefitNetworkInformation>
+        <benefitNetworkName>Premier</benefitNetworkName>
+       </benefitNetworkInformation>
+      </benefitNetworkList>
+      <otherIdList>
+       <identificationNumber name="Commercial Group Size">
+        <idNumber>Mega</idNumber>
+        <idType>Commercial Group Size</idType>
+        <idTypeCode>OI30</idTypeCode>
+       </identificationNumber>
+       <identificationNumber name="Commercial Grandfather Status">
+        <idNumber>NG</idNumber>
+        <idType>Commercial Grandfather Status</idType>
+        <idTypeCode>OI31</idTypeCode>
+       </identificationNumber>
+       <identificationNumber name="HIOS ID">
+        <idNumber>92499CA002000900</idNumber>
+        <idType>HIOS ID</idType>
+        <idTypeCode>OI1</idTypeCode>
+       </identificationNumber>
+       <identificationNumber name="MedImpact ID">
+        <idNumber>P0296</idNumber>
+        <idType>MedImpact ID</idType>
+        <idTypeCode>OI32</idTypeCode>
+       </identificationNumber>
+      </otherIdList>
+      <valueList>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>PCP Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Specialist Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Urgent Care Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Urgent Care MH &amp; CD Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Hospital Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>ER Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Ambulance Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Acupuncture Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Advanced Radiology Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Allergy Testing Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Allergy Injections Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Chemical Dependency Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Chemical Dependency Group Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Durable Medical Equipment Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Diabetic Supplies Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Dialysis Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>ER Physician Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Home Health Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Hospice Inpatient Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Hospice Outpatient Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Habilitation Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Infusion Therapy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Interruption of Pregnancy Office Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Interruption of Pregnancy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Lab Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Mental Health Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Mental Health Group Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Medical Supplies Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Outpatient Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Physician/Surgeon Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>PT/OT/ST Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Prosthetics and Orthotics Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Radiology Services Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Radiation Therapy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>SNF Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Voluntary Sterilization Male Office Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Voluntary Sterilization Outpatient Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,900.00</currencyValue>
+        <variableName>Self Coverage Deductible</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,900.00</currencyValue>
+        <variableName>Self Coverage Out of Pocket Maximum</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,900.00</currencyValue>
+        <variableName>Individual Deductible</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$13,800.00</currencyValue>
+        <variableName>Family Deductible</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,900.00</currencyValue>
+        <variableName>Individual Out of Pocket Maximum</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$13,800.00</currencyValue>
+        <variableName>Family Out of Pocket Maximum</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$30.00</currencyValue>
+        <variableName>Pediatric Vision Lenses Single Vision OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Pediatric Vision Lenses Lined Bifocal OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$60.00</currencyValue>
+        <variableName>Pediatric Vision Lenses Lined Trifocal OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$70.00</currencyValue>
+        <variableName>Pediatric Vision Contact Lenses OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$70.00</currencyValue>
+        <variableName>Pediatric Vision Exam OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$70.00</currencyValue>
+        <variableName>Pediatric Vision Frames OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>RX Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Preventive Pediatric Dental</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Diagnostic Pediatric Dental</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Full Cast</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$350.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Porcelain/Ceramic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$300.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Porcelain/Resin</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$160.00</currencyValue>
+        <variableName>Restorative Ped Dent Onlay Metallic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$150.00</currencyValue>
+        <variableName>Restorative Ped Dent Prefab SS Crown</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$25.00</currencyValue>
+        <variableName>Restorative Ped Dent Amalgam One Surface</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Restorative Ped Dent Amalgam Two Plus Surfaces</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$100.00</currencyValue>
+        <variableName>Restorative Ped Dental Core Buildup Incl Pins</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Repair</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Restorative Ped Dent Pin Retention</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$100.00</currencyValue>
+        <variableName>Restorative Ped Dent Post and Core</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$100.00</currencyValue>
+        <variableName>Restorative Ped Dent Prefab Post and Core</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Restorative Ped Dent Recement</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Restorative Ped Dent Resin-based composite</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Restorative Ped Dent Sedative Filling</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$75.00</currencyValue>
+        <variableName>Periodontics Scaling and Root Planing Four or More</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Periodontics Scaling and Root Planing One to Three</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$875.00</currencyValue>
+        <variableName>Orthodontics Ped Dent</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Orthodontics Ped Dent Retention</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$25.00</currencyValue>
+        <variableName>Orthodontics Ped Dent Treatment Plan</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Oral Surgery Ped Dent I&amp;D</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$135.00</currencyValue>
+        <variableName>Oral Surgery Ped Dent Removal of Impacted Tooth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$135.00</currencyValue>
+        <variableName>Oral Surgery Ped Dent Removal Erupted Tooth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$156.00</currencyValue>
+        <variableName>Oral Surgery Ped Dental Alveoloplasty</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$45.00</currencyValue>
+        <variableName>Oral Surgery Extraction Coronal Remnants</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$52.00</currencyValue>
+        <variableName>Oral Surgery Frenulectomy</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$65.00</currencyValue>
+        <variableName>Oral Surgery Extract Erupted Tooth or Exposed Root</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$76.00</currencyValue>
+        <variableName>Oral Surgery Removal of Torus Palatinus</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$130.00</currencyValue>
+        <variableName>Oral Surgrey I&amp;D of Abscess</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$130.00</currencyValue>
+        <variableName>Oral Surgery Removal of Torus Mandibularis</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$160.00</currencyValue>
+        <variableName>Oral Surgery Removal of Impacted Tooth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Fixed Prosthodontics Ped Dent Crowns and Pontic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$33.00</currencyValue>
+        <variableName>Fixed Prosthodontics Recement Fixed Partial</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$91.00</currencyValue>
+        <variableName>Fixed Prosthodontics Fixed Partial Repair</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Adjust Mandibular</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$75.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Tissue Conditioning</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$125.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$150.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Lab Mandibular Denture</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$234.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Replace all Teeth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$250.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Interim Partial</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Complete Denture</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Endodontics Ped Dent Pulp Cap</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$104.00</currencyValue>
+        <variableName>Endodontics Ped Dent Apexification</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$390.00</currencyValue>
+        <variableName>Endodontics Ped Dent Retreat Root Canal</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Endodontics Therapeutic Pulpotomy</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$111.00</currencyValue>
+        <variableName>Endodontics Root Amputation</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$130.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Each Addl</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$201.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Anterior</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$215.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Bicuspid</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$228.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Molar</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$300.00</currencyValue>
+        <variableName>Endodontics Anterior Root Canal</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$300.00</currencyValue>
+        <variableName>Endodontics Molar</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Endodontics Bicuspid Root Canal</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$150.00</currencyValue>
+        <variableName>Periodontics Gingivectomy/Gingivoplasty</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$507.00</currencyValue>
+        <variableName>Periodontics Osseous Surgery Four or More</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$403.00</currencyValue>
+        <variableName>Periodontics Osseous Surgery One to Three</variableName>
+       </valueDefinition>
+      </valueList>
+     </planInformation>
+    </pendingPlans>
+    <phoneNumbers>
+     <phoneNumber name="Home phone number">
+      <areaCode>619</areaCode>
+      <phoneNumber>442-5555</phoneNumber>
+      <phoneType>Home phone number</phoneType>
+      <phoneTypeCode>HP</phoneTypeCode>
+     </phoneNumber>
+    </phoneNumbers>
+    <subscriptionUdtList>
+     <UDT name="CSR (Cost Share Reduction Amount)">
+      <udtName>CSR (Cost Share Reduction Amount)</udtName>
+      <attributes>
+       <attribute name="CSR (Cost Share Reduction Amount)">
+        <attributeName>CSR (Cost Share Reduction Amount)</attributeName>
+        <defaultValue>$0.00</defaultValue>
+        <value>0.00</value>
+       </attribute>
+      </attributes>
+     </UDT>
+     <UDT name="Gross Premium Amount">
+      <udtName>Gross Premium Amount</udtName>
+      <attributes>
+       <attribute name="Gross Premium Amount">
+        <attributeName>Gross Premium Amount</attributeName>
+        <defaultValue>$0.00</defaultValue>
+        <value>826.16</value>
+       </attribute>
+      </attributes>
+     </UDT>
+     <UDT name="HSA Banking Partner - Enrollment">
+      <udtName>HSA Banking Partner - Enrollment</udtName>
+      <attributes>
+       <attribute name="HSA Banking Partner - Enrollment">
+        <attributeName>HSA Banking Partner - Enrollment</attributeName>
+        <defaultValue>Not Enrolled</defaultValue>
+        <longName>Not Enrolled</longName>
+        <value>Not Enrolled</value>
+        <valueShortName>Not Enrolled</valueShortName>
+       </attribute>
+      </attributes>
+     </UDT>
+     <UDT name="HSA Banking Partner">
+      <udtName>HSA Banking Partner</udtName>
+      <attributes>
+       <attribute name="HSA Banking Partner">
+        <attributeName>HSA Banking Partner</attributeName>
+        <defaultValue>No Banking Partner</defaultValue>
+        <longName>No Banking Partner</longName>
+        <value>No Banking Partner</value>
+        <valueShortName>No Banking Partner</valueShortName>
+       </attribute>
+      </attributes>
+     </UDT>
+    </subscriptionUdtList>
+   </member>
+  </recipient>
+  <recipientAddress>
+   <address>145  Ln</address>
+   <city>El Cajon</city>
+   <countryCode>US</countryCode>
+   <countyCode>06073</countyCode>
+   <stateCode>CA</stateCode>
+   <zipCode>92019</zipCode>
+   <zipExtension>7000</zipExtension>
+  </recipientAddress>
+  <subject>
+   <member>
+    <VIP>false</VIP>
+    <birthDate>1957-11-23</birthDate>
+    <effectiveDate>2018-01-01</effectiveDate>
+    <emailAddress>test@testldds.com</emailAddress>
+    <ethnicity>Other Race Or Ethnicity</ethnicity>
+    <ethnicityCode>E</ethnicityCode>
+    <firstName>Teest</firstName>
+    <gender>Male</gender>
+    <genderCode>M</genderCode>
+    <id>920000000-01</id>
+    <isSubscriber>true</isSubscriber>
+    <lastName>test</lastName>
+    <maritalStatus>Married</maritalStatus>
+    <maritalStatusCode>M</maritalStatusCode>
+    <numberOfDependents>0</numberOfDependents>
+    <relationshipToSubscriber>Self</relationshipToSubscriber>
+    <somkingStatus>2</somkingStatus>
+    <subscriberId>920000000-01</subscriberId>
+    <subscriberSystemId>170506</subscriberSystemId>
+    <subscriptionId>920000000</subscriptionId>
+    <subscriptionSystemId>102403</subscriptionSystemId>
+    <systemId>170506</systemId>
+    <versionEffectiveDate>2019-01-01T00:00:00.000</versionEffectiveDate>
+    <account>
+     <accountType>Individual</accountType>
+     <accountTypeCode>3</accountTypeCode>
+     <id>1009001-01</id>
+     <name>IFP Off Exchange</name>
+     <startDate>2015-01-01</startDate>
+     <systemId>4</systemId>
+     <taxId>33-0519730</taxId>
+     <correspondenceAddress>
+      <address>8520 Tech Way Ste 200</address>
+      <city>San Diego</city>
+      <countryCode>US</countryCode>
+      <countyCode>06073</countyCode>
+      <stateCode>CA</stateCode>
+      <zipCode>92123</zipCode>
+      <zipExtension>1450</zipExtension>
+     </correspondenceAddress>
+     <udtList>
+      <UDT name="ERISA Eligible">
+       <udtName>ERISA Eligible</udtName>
+       <attributes>
+        <attribute name="ERISA/NON ERISA">
+         <attributeName>ERISA/NON ERISA</attributeName>
+         <defaultValue>ERISA</defaultValue>
+         <longName>ERISA</longName>
+         <value>ERISA</value>
+         <valueShortName>ERISA</valueShortName>
+        </attribute>
+       </attributes>
+      </UDT>
+     </udtList>
+    </account>
+    <correspondenceAddress>
+     <address>145 Ln</address>
+     <city>El Cajon</city>
+     <countryCode>US</countryCode>
+     <countyCode>06073</countyCode>
+     <stateCode>CA</stateCode>
+     <zipCode>92019</zipCode>
+     <zipExtension>7000</zipExtension>
+    </correspondenceAddress>
+    <hierarchialAccountInformation>
+     <parentAccountId>1009001</parentAccountId>
+     <parentAccountType>Individual</parentAccountType>
+     <parentAccountTypeCode>3</parentAccountTypeCode>
+     <topAccountId>1009001</topAccountId>
+     <topAccountName>IFP Off Exchange</topAccountName>
+     <topAccountType>Individual</topAccountType>
+     <topAccountTypeCode>3</topAccountTypeCode>
+     <parentContactList>
+      <contact>
+       <contactType>Other</contactType>
+       <firstName>Enrollment</firstName>
+       <lastName>Department</lastName>
+      </contact>
+     </parentContactList>
+     <topAccountUDTList>
+      <UDT name="ERISA Eligible">
+       <udtName>ERISA Eligible</udtName>
+       <attributes>
+        <attribute name="ERISA/NON ERISA">
+         <attributeName>ERISA/NON ERISA</attributeName>
+         <defaultValue>ERISA</defaultValue>
+         <longName>ERISA</longName>
+         <value>ERISA</value>
+         <valueShortName>ERISA</valueShortName>
+        </attribute>
+       </attributes>
+      </UDT>
+      <UDT name="HSA Banking Partner">
+       <udtName>HSA Banking Partner</udtName>
+       <attributes>
+        <attribute name="HSA Banking Partner">
+         <attributeName>HSA Banking Partner</attributeName>
+         <defaultValue>No Banking Partner</defaultValue>
+         <longName>Health Equity</longName>
+         <value>Health Equity</value>
+         <valueShortName>Health Equity</valueShortName>
+        </attribute>
+       </attributes>
+      </UDT>
+     </topAccountUDTList>
+    </hierarchialAccountInformation>
+    <residentialAddress>
+     <address>145  Ln</address>
+     <city>El Cajon</city>
+     <countryCode>US</countryCode>
+     <countyCode>06073</countyCode>
+     <stateCode>CA</stateCode>
+     <zipCode>92019</zipCode>
+     <zipExtension>7000</zipExtension>
+    </residentialAddress>
+    <subscriberInformation>
+     <birthDate>1957-11-23</birthDate>
+     <firstName>Teest</firstName>
+     <gender>Male</gender>
+     <genderCode>M</genderCode>
+     <id>920000000-01</id>
+     <lastName>McTesterson</lastName>
+     <maritalStatus>Married</maritalStatus>
+     <maritalStatusCode>M</maritalStatusCode>
+     <systemId>170506</systemId>
+    </subscriberInformation>
+    <historicalPlans>
+     <planInformation>
+      <endDate>2019-01-01</endDate>
+      <planId>2026104100900101</planId>
+      <planName>Sharp Bronze 60 HDHP HMO Premier</planName>
+      <startDate>2018-01-01</startDate>
+      <product>
+       <isMedicare>false</isMedicare>
+       <planType>Medical</planType>
+       <productName>Off Exchange IFP</productName>
+       <linesOfBusiness>
+        <lineOfBusiness name="Funding Type">
+         <groupName>Funding Type</groupName>
+         <lineOfBusinessName>Fully Funded</lineOfBusinessName>
+        </lineOfBusiness>
+        <lineOfBusiness name="Business Type">
+         <groupName>Business Type</groupName>
+         <lineOfBusinessName>Individual</lineOfBusinessName>
+        </lineOfBusiness>
+       </linesOfBusiness>
+      </product>
+      <benefitNetworkList>
+       <benefitNetworkInformation>
+        <benefitNetworkName>Premier</benefitNetworkName>
+       </benefitNetworkInformation>
+      </benefitNetworkList>
+      <otherIdList>
+       <identificationNumber name="HIOS ID">
+        <idNumber>92499CA002000900</idNumber>
+        <idType>HIOS ID</idType>
+        <idTypeCode>OI1</idTypeCode>
+       </identificationNumber>
+       <identificationNumber name="MedImpact ID">
+        <idNumber>73170</idNumber>
+        <idType>MedImpact ID</idType>
+        <idTypeCode>OI32</idTypeCode>
+       </identificationNumber>
+      </otherIdList>
+      <valueList>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>PCP Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Specialist Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Urgent Care Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Hospital Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>ER Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Ambulance Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Acupuncture Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Advanced Radiology Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Allergy Testing Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Allergy Injections Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Autism Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Chemical Dependency Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Chemical Dependency Group Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Chemical Dependency Group Therapy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Durable Medical Equipment Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Diabetic Supplies Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Dialysis Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>ER Physician Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Home Health Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Hospice Inpatient Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Hospice Outpatient Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Habilitation Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Infusion Therapy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Imaging Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Interruption of Pregnancy Office Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Interruption of Pregnancy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Lab Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Mental Health Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Mental Health Office Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Mental Health Group Therapy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Medical Supplies Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Other Outpatient Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Outpatient Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Physician/Surgeon Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>PT/OT/ST Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Prosthetics and Orthotics Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Radiology Services Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Radiation Therapy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>SNF Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Sterilization Male Outpatient Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Voluntary Sterilization Male Office Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Voluntary Sterilization Outpatient Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>X-Ray Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$4,800.00</currencyValue>
+        <variableName>Self Coverage Deductible</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,550.00</currencyValue>
+        <variableName>Self Coverage Out of Pocket Maximum</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$4,800.00</currencyValue>
+        <variableName>Individual Deductible</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$9,600.00</currencyValue>
+        <variableName>Family Deductible</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,550.00</currencyValue>
+        <variableName>Individual Out of Pocket Maximum</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$13,100.00</currencyValue>
+        <variableName>Family Out of Pocket Maximum</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$30.00</currencyValue>
+        <variableName>Pediatric Vision Lenses Single Vision OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Pediatric Vision Lenses Lined Bifocal OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$60.00</currencyValue>
+        <variableName>Pediatric Vision Lenses Lined Trifocal OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$70.00</currencyValue>
+        <variableName>Pediatric Vision Contact Lenses OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$70.00</currencyValue>
+        <variableName>Pediatric Vision Exam OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$70.00</currencyValue>
+        <variableName>Pediatric Vision Frames OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Office Visit Copay Minute Clinic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$10.00</currencyValue>
+        <variableName>Flu Shot Copay Minute Clinic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>RX Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Preventive Pediatric Dental</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Diagnostic Pediatric Dental</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Full Cast</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$350.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Porcelain/Ceramic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$300.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Porcelain/Resin</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$160.00</currencyValue>
+        <variableName>Restorative Ped Dent Onlay Metallic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$150.00</currencyValue>
+        <variableName>Restorative Ped Dent Prefab SS Crown</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$25.00</currencyValue>
+        <variableName>Restorative Ped Dent Amalgam One Surface</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Restorative Ped Dent Amalgam Two Plus Surfaces</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$100.00</currencyValue>
+        <variableName>Restorative Ped Dental Core Buildup Incl Pins</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Repair</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Restorative Ped Dent Pin Retention</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$100.00</currencyValue>
+        <variableName>Restorative Ped Dent Post and Core</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$100.00</currencyValue>
+        <variableName>Restorative Ped Dent Prefab Post and Core</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Restorative Ped Dent Recement</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Restorative Ped Dent Resin-based composite</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Restorative Ped Dent Sedative Filling</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$75.00</currencyValue>
+        <variableName>Periodontics Scaling and Root Planing Four or More</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Periodontics Scaling and Root Planing One to Three</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$875.00</currencyValue>
+        <variableName>Orthodontics Ped Dent</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Orthodontics Ped Dent Retention</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$25.00</currencyValue>
+        <variableName>Orthodontics Ped Dent Treatment Plan</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Oral Surgery Ped Dent I&amp;D</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$135.00</currencyValue>
+        <variableName>Oral Surgery Ped Dent Removal of Impacted Tooth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$135.00</currencyValue>
+        <variableName>Oral Surgery Ped Dent Removal Erupted Tooth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$156.00</currencyValue>
+        <variableName>Oral Surgery Ped Dental Alveoloplasty</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$45.00</currencyValue>
+        <variableName>Oral Surgery Extraction Coronal Remnants</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$52.00</currencyValue>
+        <variableName>Oral Surgery Frenulectomy</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$65.00</currencyValue>
+        <variableName>Oral Surgery Extract Erupted Tooth or Exposed Root</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$76.00</currencyValue>
+        <variableName>Oral Surgery Removal of Torus Palatinus</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$130.00</currencyValue>
+        <variableName>Oral Surgrey I&amp;D of Abscess</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$130.00</currencyValue>
+        <variableName>Oral Surgery Removal of Torus Mandibularis</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$160.00</currencyValue>
+        <variableName>Oral Surgery Removal of Impacted Tooth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Fixed Prosthodontics Ped Dent Crowns and Pontic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$33.00</currencyValue>
+        <variableName>Fixed Prosthodontics Recement Fixed Partial</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$91.00</currencyValue>
+        <variableName>Fixed Prosthodontics Fixed Partial Repair</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Adjust Mandibular</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$75.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Tissue Conditioning</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$125.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$150.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Lab Mandibular Denture</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$234.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Replace all Teeth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$250.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Interim Partial</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Complete Denture</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Endodontics Ped Dent Pulp Cap</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$104.00</currencyValue>
+        <variableName>Endodontics Ped Dent Apexification</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$390.00</currencyValue>
+        <variableName>Endodontics Ped Dent Retreat Root Canal</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Endodontics Therapeutic Pulpotomy</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$111.00</currencyValue>
+        <variableName>Endodontics Root Amputation</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$130.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Each Addl</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$201.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Anterior</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$215.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Bicuspid</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$228.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Molar</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$300.00</currencyValue>
+        <variableName>Endodontics Anterior Root Canal</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$300.00</currencyValue>
+        <variableName>Endodontics Molar</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Endodontics Bicuspid Root Canal</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$150.00</currencyValue>
+        <variableName>Periodontics Gingivectomy/Gingivoplasty</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$507.00</currencyValue>
+        <variableName>Periodontics Osseous Surgery Four or More</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$403.00</currencyValue>
+        <variableName>Periodontics Osseous Surgery One to Three</variableName>
+       </valueDefinition>
+      </valueList>
+     </planInformation>
+     <planInformation>
+      <endDate>2019-01-01</endDate>
+      <planId>2037904100900101</planId>
+      <planName>Sharp Bronze 60 HDHP HMO Premier</planName>
+      <startDate>2019-01-01</startDate>
+      <product>
+       <isMedicare>false</isMedicare>
+       <planType>Medical</planType>
+       <productName>Off Exchange IFP</productName>
+       <linesOfBusiness>
+        <lineOfBusiness name="Funding Type">
+         <groupName>Funding Type</groupName>
+         <lineOfBusinessName>Fully Funded</lineOfBusinessName>
+        </lineOfBusiness>
+        <lineOfBusiness name="Business Type">
+         <groupName>Business Type</groupName>
+         <lineOfBusinessName>Individual</lineOfBusinessName>
+        </lineOfBusiness>
+       </linesOfBusiness>
+      </product>
+      <benefitNetworkList>
+       <benefitNetworkInformation>
+        <benefitNetworkName>Premier</benefitNetworkName>
+       </benefitNetworkInformation>
+      </benefitNetworkList>
+      <otherIdList>
+       <identificationNumber name="HIOS ID">
+        <idNumber>92499CA002000900</idNumber>
+        <idType>HIOS ID</idType>
+        <idTypeCode>OI1</idTypeCode>
+       </identificationNumber>
+       <identificationNumber name="MedImpact ID">
+        <idNumber>P0135</idNumber>
+        <idType>MedImpact ID</idType>
+        <idTypeCode>OI32</idTypeCode>
+       </identificationNumber>
+       <identificationNumber name="Commercial Group Size">
+        <idNumber>Mega</idNumber>
+        <idType>Commercial Group Size</idType>
+        <idTypeCode>OI30</idTypeCode>
+       </identificationNumber>
+       <identificationNumber name="Commercial Grandfather Status">
+        <idNumber>NG</idNumber>
+        <idType>Commercial Grandfather Status</idType>
+        <idTypeCode>OI31</idTypeCode>
+       </identificationNumber>
+      </otherIdList>
+      <valueList>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>PCP Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Specialist Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Urgent Care Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Urgent Care MH &amp; CD Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Hospital Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>ER Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Ambulance Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Acupuncture Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Advanced Radiology Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Allergy Testing Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Allergy Injections Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Chemical Dependency Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Chemical Dependency Group Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Durable Medical Equipment Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Diabetic Supplies Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Dialysis Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>ER Physician Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Home Health Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Hospice Inpatient Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Hospice Outpatient Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Habilitation Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Infusion Therapy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Interruption of Pregnancy Office Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Interruption of Pregnancy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Lab Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Mental Health Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Mental Health Group Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Medical Supplies Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Outpatient Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Physician/Surgeon Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>PT/OT/ST Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Prosthetics and Orthotics Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Radiology Services Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Radiation Therapy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>SNF Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Voluntary Sterilization Male Office Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>Voluntary Sterilization Outpatient Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,000.00</currencyValue>
+        <variableName>Self Coverage Deductible</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,650.00</currencyValue>
+        <variableName>Self Coverage Out of Pocket Maximum</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,000.00</currencyValue>
+        <variableName>Individual Deductible</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$12,000.00</currencyValue>
+        <variableName>Family Deductible</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,650.00</currencyValue>
+        <variableName>Individual Out of Pocket Maximum</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$13,300.00</currencyValue>
+        <variableName>Family Out of Pocket Maximum</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$30.00</currencyValue>
+        <variableName>Pediatric Vision Lenses Single Vision OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Pediatric Vision Lenses Lined Bifocal OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$60.00</currencyValue>
+        <variableName>Pediatric Vision Lenses Lined Trifocal OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$70.00</currencyValue>
+        <variableName>Pediatric Vision Contact Lenses OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$70.00</currencyValue>
+        <variableName>Pediatric Vision Exam OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$70.00</currencyValue>
+        <variableName>Pediatric Vision Frames OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>60</percentValue>
+        <variableName>RX Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Preventive Pediatric Dental</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Diagnostic Pediatric Dental</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Full Cast</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$350.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Porcelain/Ceramic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$300.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Porcelain/Resin</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$160.00</currencyValue>
+        <variableName>Restorative Ped Dent Onlay Metallic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$150.00</currencyValue>
+        <variableName>Restorative Ped Dent Prefab SS Crown</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$25.00</currencyValue>
+        <variableName>Restorative Ped Dent Amalgam One Surface</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Restorative Ped Dent Amalgam Two Plus Surfaces</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$100.00</currencyValue>
+        <variableName>Restorative Ped Dental Core Buildup Incl Pins</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Repair</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Restorative Ped Dent Pin Retention</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$100.00</currencyValue>
+        <variableName>Restorative Ped Dent Post and Core</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$100.00</currencyValue>
+        <variableName>Restorative Ped Dent Prefab Post and Core</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Restorative Ped Dent Recement</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Restorative Ped Dent Resin-based composite</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Restorative Ped Dent Sedative Filling</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$75.00</currencyValue>
+        <variableName>Periodontics Scaling and Root Planing Four or More</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Periodontics Scaling and Root Planing One to Three</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$875.00</currencyValue>
+        <variableName>Orthodontics Ped Dent</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Orthodontics Ped Dent Retention</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$25.00</currencyValue>
+        <variableName>Orthodontics Ped Dent Treatment Plan</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Oral Surgery Ped Dent I&amp;D</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$135.00</currencyValue>
+        <variableName>Oral Surgery Ped Dent Removal of Impacted Tooth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$135.00</currencyValue>
+        <variableName>Oral Surgery Ped Dent Removal Erupted Tooth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$156.00</currencyValue>
+        <variableName>Oral Surgery Ped Dental Alveoloplasty</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$45.00</currencyValue>
+        <variableName>Oral Surgery Extraction Coronal Remnants</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$52.00</currencyValue>
+        <variableName>Oral Surgery Frenulectomy</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$65.00</currencyValue>
+        <variableName>Oral Surgery Extract Erupted Tooth or Exposed Root</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$76.00</currencyValue>
+        <variableName>Oral Surgery Removal of Torus Palatinus</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$130.00</currencyValue>
+        <variableName>Oral Surgrey I&amp;D of Abscess</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$130.00</currencyValue>
+        <variableName>Oral Surgery Removal of Torus Mandibularis</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$160.00</currencyValue>
+        <variableName>Oral Surgery Removal of Impacted Tooth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Fixed Prosthodontics Ped Dent Crowns and Pontic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$33.00</currencyValue>
+        <variableName>Fixed Prosthodontics Recement Fixed Partial</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$91.00</currencyValue>
+        <variableName>Fixed Prosthodontics Fixed Partial Repair</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Adjust Mandibular</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$75.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Tissue Conditioning</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$125.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$150.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Lab Mandibular Denture</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$234.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Replace all Teeth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$250.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Interim Partial</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Complete Denture</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Endodontics Ped Dent Pulp Cap</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$104.00</currencyValue>
+        <variableName>Endodontics Ped Dent Apexification</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$390.00</currencyValue>
+        <variableName>Endodontics Ped Dent Retreat Root Canal</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Endodontics Therapeutic Pulpotomy</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$111.00</currencyValue>
+        <variableName>Endodontics Root Amputation</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$130.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Each Addl</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$201.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Anterior</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$215.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Bicuspid</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$228.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Molar</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$300.00</currencyValue>
+        <variableName>Endodontics Anterior Root Canal</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$300.00</currencyValue>
+        <variableName>Endodontics Molar</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Endodontics Bicuspid Root Canal</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$150.00</currencyValue>
+        <variableName>Periodontics Gingivectomy/Gingivoplasty</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$507.00</currencyValue>
+        <variableName>Periodontics Osseous Surgery Four or More</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$403.00</currencyValue>
+        <variableName>Periodontics Osseous Surgery One to Three</variableName>
+       </valueDefinition>
+      </valueList>
+     </planInformation>
+    </historicalPlans>
+    <historicalProviderChoices>
+     <providerChoice name="PCP">
+      <affiliatedNetwork>SCMG</affiliatedNetwork>
+      <choiceType>PCP</choiceType>
+      <endDate>2019-01-01</endDate>
+      <firstName>Nossa</firstName>
+      <lastName>Maya</lastName>
+      <providerId>P0000000699</providerId>
+      <providerNPI>1184825754</providerNPI>
+      <providerPhone>619-841-8148</providerPhone>
+      <providerRoleName>PCP-P0000000699-S0000000504-671 S Mollison Ave Ste</providerRoleName>
+      <startDate>2018-01-01</startDate>
+      <supplierName>Lung Sleep and Medicine Institute A Professional Medical Corporation</supplierName>
+      <supplierPhone>619-841-8148</supplierPhone>
+     </providerChoice>
+     <providerChoice name="PCP">
+      <affiliatedNetwork>SCMG</affiliatedNetwork>
+      <choiceType>PCP</choiceType>
+      <endDate>3000-01-01</endDate>
+      <firstName>Nossa</firstName>
+      <lastName>Maya</lastName>
+      <providerId>P0000000699</providerId>
+      <providerNPI>1184825754</providerNPI>
+      <providerPhone>619-841-8148</providerPhone>
+      <providerRoleName>PCP-P0000000699-S0000000504-671 S Mollison Ave Ste</providerRoleName>
+      <startDate>2020-01-01</startDate>
+      <supplierName>Lung Sleep and Medicine Institute A Professional Medical Corporation</supplierName>
+      <supplierPhone>619-841-8148</supplierPhone>
+     </providerChoice>
+    </historicalProviderChoices>
+    <otherIds>
+     <identificationNumber>
+      <idNumber>U008937401</idNumber>
+      <idTypeCode>OI34</idTypeCode>
+     </identificationNumber>
+     <identificationNumber>
+      <idNumber>920000000-01</idNumber>
+      <idTypeCode>2</idTypeCode>
+     </identificationNumber>
+     <identificationNumber>
+      <idNumber>560-11-0359</idNumber>
+      <idTypeCode>FI</idTypeCode>
+     </identificationNumber>
+    </otherIds>
+    <pendingPlans>
+     <planInformation>
+      <endDate>3000-01-01</endDate>
+      <planId>2059904100900101</planId>
+      <planName>Sharp Bronze 60 Premier HDHP HMO</planName>
+      <startDate>2020-01-01</startDate>
+      <product>
+       <isMedicare>false</isMedicare>
+       <planType>Medical</planType>
+       <productName>Off Exchange IFP</productName>
+       <linesOfBusiness>
+        <lineOfBusiness name="Funding Type">
+         <groupName>Funding Type</groupName>
+         <lineOfBusinessName>Fully Funded</lineOfBusinessName>
+        </lineOfBusiness>
+        <lineOfBusiness name="Business Type">
+         <groupName>Business Type</groupName>
+         <lineOfBusinessName>Individual</lineOfBusinessName>
+        </lineOfBusiness>
+       </linesOfBusiness>
+      </product>
+      <benefitNetworkList>
+       <benefitNetworkInformation>
+        <benefitNetworkName>Premier</benefitNetworkName>
+       </benefitNetworkInformation>
+      </benefitNetworkList>
+      <otherIdList>
+       <identificationNumber name="Commercial Group Size">
+        <idNumber>Mega</idNumber>
+        <idType>Commercial Group Size</idType>
+        <idTypeCode>OI30</idTypeCode>
+       </identificationNumber>
+       <identificationNumber name="Commercial Grandfather Status">
+        <idNumber>NG</idNumber>
+        <idType>Commercial Grandfather Status</idType>
+        <idTypeCode>OI31</idTypeCode>
+       </identificationNumber>
+       <identificationNumber name="HIOS ID">
+        <idNumber>92499CA002000900</idNumber>
+        <idType>HIOS ID</idType>
+        <idTypeCode>OI1</idTypeCode>
+       </identificationNumber>
+       <identificationNumber name="MedImpact ID">
+        <idNumber>P0296</idNumber>
+        <idType>MedImpact ID</idType>
+        <idTypeCode>OI32</idTypeCode>
+       </identificationNumber>
+      </otherIdList>
+      <valueList>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>PCP Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Specialist Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Urgent Care Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Urgent Care MH &amp; CD Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Hospital Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>ER Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Ambulance Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Acupuncture Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Advanced Radiology Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Allergy Testing Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Allergy Injections Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Chemical Dependency Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Chemical Dependency Group Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Durable Medical Equipment Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Diabetic Supplies Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Dialysis Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>ER Physician Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Home Health Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Hospice Inpatient Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Hospice Outpatient Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Habilitation Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Infusion Therapy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Interruption of Pregnancy Office Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Interruption of Pregnancy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Lab Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Mental Health Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Mental Health Group Copay</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Medical Supplies Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Outpatient Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Physician/Surgeon Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>PT/OT/ST Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Prosthetics and Orthotics Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Radiology Services Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Radiation Therapy Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>SNF Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Voluntary Sterilization Male Office Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>Voluntary Sterilization Outpatient Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,900.00</currencyValue>
+        <variableName>Self Coverage Deductible</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,900.00</currencyValue>
+        <variableName>Self Coverage Out of Pocket Maximum</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,900.00</currencyValue>
+        <variableName>Individual Deductible</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$13,800.00</currencyValue>
+        <variableName>Family Deductible</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$6,900.00</currencyValue>
+        <variableName>Individual Out of Pocket Maximum</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$13,800.00</currencyValue>
+        <variableName>Family Out of Pocket Maximum</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$30.00</currencyValue>
+        <variableName>Pediatric Vision Lenses Single Vision OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Pediatric Vision Lenses Lined Bifocal OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$60.00</currencyValue>
+        <variableName>Pediatric Vision Lenses Lined Trifocal OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$70.00</currencyValue>
+        <variableName>Pediatric Vision Contact Lenses OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$70.00</currencyValue>
+        <variableName>Pediatric Vision Exam OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$70.00</currencyValue>
+        <variableName>Pediatric Vision Frames OON Max</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <percentValue>100</percentValue>
+        <variableName>RX Coinsurance</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Preventive Pediatric Dental</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Diagnostic Pediatric Dental</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Full Cast</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$350.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Porcelain/Ceramic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$300.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Porcelain/Resin</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$160.00</currencyValue>
+        <variableName>Restorative Ped Dent Onlay Metallic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$150.00</currencyValue>
+        <variableName>Restorative Ped Dent Prefab SS Crown</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$25.00</currencyValue>
+        <variableName>Restorative Ped Dent Amalgam One Surface</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Restorative Ped Dent Amalgam Two Plus Surfaces</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$100.00</currencyValue>
+        <variableName>Restorative Ped Dental Core Buildup Incl Pins</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Restorative Ped Dent Crown Repair</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Restorative Ped Dent Pin Retention</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$100.00</currencyValue>
+        <variableName>Restorative Ped Dent Post and Core</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$100.00</currencyValue>
+        <variableName>Restorative Ped Dent Prefab Post and Core</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Restorative Ped Dent Recement</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Restorative Ped Dent Resin-based composite</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Restorative Ped Dent Sedative Filling</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$75.00</currencyValue>
+        <variableName>Periodontics Scaling and Root Planing Four or More</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$0.00</currencyValue>
+        <variableName>Periodontics Scaling and Root Planing One to Three</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$875.00</currencyValue>
+        <variableName>Orthodontics Ped Dent</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Orthodontics Ped Dent Retention</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$25.00</currencyValue>
+        <variableName>Orthodontics Ped Dent Treatment Plan</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$40.00</currencyValue>
+        <variableName>Oral Surgery Ped Dent I&amp;D</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$135.00</currencyValue>
+        <variableName>Oral Surgery Ped Dent Removal of Impacted Tooth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$135.00</currencyValue>
+        <variableName>Oral Surgery Ped Dent Removal Erupted Tooth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$156.00</currencyValue>
+        <variableName>Oral Surgery Ped Dental Alveoloplasty</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$45.00</currencyValue>
+        <variableName>Oral Surgery Extraction Coronal Remnants</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$52.00</currencyValue>
+        <variableName>Oral Surgery Frenulectomy</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$65.00</currencyValue>
+        <variableName>Oral Surgery Extract Erupted Tooth or Exposed Root</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$76.00</currencyValue>
+        <variableName>Oral Surgery Removal of Torus Palatinus</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$130.00</currencyValue>
+        <variableName>Oral Surgrey I&amp;D of Abscess</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$130.00</currencyValue>
+        <variableName>Oral Surgery Removal of Torus Mandibularis</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$160.00</currencyValue>
+        <variableName>Oral Surgery Removal of Impacted Tooth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Fixed Prosthodontics Ped Dent Crowns and Pontic</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$33.00</currencyValue>
+        <variableName>Fixed Prosthodontics Recement Fixed Partial</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$91.00</currencyValue>
+        <variableName>Fixed Prosthodontics Fixed Partial Repair</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Adjust Mandibular</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$75.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Tissue Conditioning</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$125.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$150.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Lab Mandibular Denture</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$234.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Replace all Teeth</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$250.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Interim Partial</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Removable Prostho Ped Dent Complete Denture</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Endodontics Ped Dent Pulp Cap</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$104.00</currencyValue>
+        <variableName>Endodontics Ped Dent Apexification</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$390.00</currencyValue>
+        <variableName>Endodontics Ped Dent Retreat Root Canal</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$50.00</currencyValue>
+        <variableName>Endodontics Therapeutic Pulpotomy</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$111.00</currencyValue>
+        <variableName>Endodontics Root Amputation</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$130.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Each Addl</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$201.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Anterior</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$215.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Bicuspid</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$228.00</currencyValue>
+        <variableName>Endodontics Apicoectomy Molar</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$300.00</currencyValue>
+        <variableName>Endodontics Anterior Root Canal</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$300.00</currencyValue>
+        <variableName>Endodontics Molar</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$365.00</currencyValue>
+        <variableName>Endodontics Bicuspid Root Canal</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$150.00</currencyValue>
+        <variableName>Periodontics Gingivectomy/Gingivoplasty</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$507.00</currencyValue>
+        <variableName>Periodontics Osseous Surgery Four or More</variableName>
+       </valueDefinition>
+       <valueDefinition>
+        <currencyValue>$403.00</currencyValue>
+        <variableName>Periodontics Osseous Surgery One to Three</variableName>
+       </valueDefinition>
+      </valueList>
+     </planInformation>
+    </pendingPlans>
+    <phoneNumbers>
+     <phoneNumber name="Home phone number">
+      <areaCode>619</areaCode>
+      <phoneNumber>442-5974</phoneNumber>
+      <phoneType>Home phone number</phoneType>
+      <phoneTypeCode>HP</phoneTypeCode>
+     </phoneNumber>
+    </phoneNumbers>
+    <subscriptionUdtList>
+     <UDT name="CSR (Cost Share Reduction Amount)">
+      <udtName>CSR (Cost Share Reduction Amount)</udtName>
+      <attributes>
+       <attribute name="CSR (Cost Share Reduction Amount)">
+        <attributeName>CSR (Cost Share Reduction Amount)</attributeName>
+        <defaultValue>$0.00</defaultValue>
+        <value>0.00</value>
+       </attribute>
+      </attributes>
+     </UDT>
+     <UDT name="Gross Premium Amount">
+      <udtName>Gross Premium Amount</udtName>
+      <attributes>
+       <attribute name="Gross Premium Amount">
+        <attributeName>Gross Premium Amount</attributeName>
+        <defaultValue>$0.00</defaultValue>
+        <value>826.16</value>
+       </attribute>
+      </attributes>
+     </UDT>
+     <UDT name="HSA Banking Partner - Enrollment">
+      <udtName>HSA Banking Partner - Enrollment</udtName>
+      <attributes>
+       <attribute name="HSA Banking Partner - Enrollment">
+        <attributeName>HSA Banking Partner - Enrollment</attributeName>
+        <defaultValue>Not Enrolled</defaultValue>
+        <longName>Not Enrolled</longName>
+        <value>Not Enrolled</value>
+        <valueShortName>Not Enrolled</valueShortName>
+       </attribute>
+      </attributes>
+     </UDT>
+     <UDT name="HSA Banking Partner">
+      <udtName>HSA Banking Partner</udtName>
+      <attributes>
+       <attribute name="HSA Banking Partner">
+        <attributeName>HSA Banking Partner</attributeName>
+        <defaultValue>No Banking Partner</defaultValue>
+        <longName>No Banking Partner</longName>
+        <value>No Banking Partner</value>
+        <valueShortName>No Banking Partner</valueShortName>
+       </attribute>
+      </attributes>
+     </UDT>
+    </subscriptionUdtList>
+   </member>
+  </subject>
+  <correspondenceFields>
+   <correspondenceFieldValue name="PremiumDueDate">
+    <name>PremiumDueDate</name>
+    <value>2019-12-31</value>
+   </correspondenceFieldValue>
+   <correspondenceFieldValue name="PremiumResponsibility">
+    <name>PremiumResponsibility</name>
+    <value>$826.16</value>
+   </correspondenceFieldValue>
+  </correspondenceFields>
+ </correspondenceItem>
+</correspondenceItemList>

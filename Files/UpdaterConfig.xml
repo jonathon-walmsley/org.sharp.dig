@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<n:correspondences xmlns:n="http://www.healthedge.com/connector/schema/correspondence/updater">
+    <jobType>membership</jobType>
+    <configName>All</configName>
+    <correspondence>
+        <recipient>
+            <type>Membership</type>
+            <hccId>900000000-01</hccId>
+        </recipient>
+        <id>100000</id>
+        <status>p</status>
+        <description>Member ID Card - New Member</description>
+        <definition>
+            <name>Member ID Card - New Member</name>
+        </definition>
+        <subject>
+            <type>Membership</type>
+            <hccId>900000000-01</hccId>
+        </subject>
+    </correspondence>
+</n:correspondences>
